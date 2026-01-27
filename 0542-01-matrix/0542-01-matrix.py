@@ -1,38 +1,30 @@
 class Solution:
     def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
-        #bfs on each element that has a value of one will result in 
-        #to get the desired result or distance
-
-        row , column = len(mat), len(mat[0])
-        queue = deque()
+        row,column = len(mat),len(mat[0])
+        def inbound(r,c):
+            return r >= 0 and r < row and c >= 0 and c < column
+        direction = [(1,0),(-1,0),(0,1),(0,-1)]
+        q = deque()
         visited = set()
-        #checking weather or not is is bounde or not
-        def bound(r,c):
-            if r < 0 or c < 0 or r == row or c == column:
-                return False
-            return True
-        
-        #direction for top, right, bottom , left
-        direction = [(-1,0),(0,1),(1,0),(0,-1)]
-
         def bfs():
-            while queue:
-                length = len(queue)
-                for _ in range(length):
-                    new_r, new_c = queue.popleft()
-                    for i, j in direction:
-                        dx = new_r + i
-                        dy = new_c + j
-                        if bound(dx,dy):
-                            if (dx,dy) not in visited:
-                                if mat[dx][dy] != 0:
-                                    mat[dx][dy] = 1 + mat[new_r][new_c]
-                                visited.add((dx,dy))   
-                                queue.append((dx,dy))     
+            while q:
+                n = len(q)
+                for _ in range(n):
+                    new_r, new_c = q.popleft()
+                    for x, y in direction:
+                        new_x = new_r + x
+                        new_y = new_c + y
+                        if inbound(new_x,new_y) and (new_x,new_y) not in visited:
+                            if mat[new_x][new_y] != 0:
+                                mat[new_x][new_y] = 1 + mat[new_r][new_c]
+                            q.append((new_x,new_y))
+                            visited.add((new_x,new_y))
+        res = [ [0 for _ in range(column)] for _ in range(row)] 
         for i in range(row):
             for j in range(column):
                 if mat[i][j] == 0:
-                    queue.append((i,j))
-                    visited.add((i,j))
+                    q.append((i,j))
         bfs()
         return mat
+                            
+            
