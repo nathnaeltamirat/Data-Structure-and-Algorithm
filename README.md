@@ -17,6 +17,7 @@ Added CFPUSHER
 ## Array
 |  |
 | ------- |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0542-01-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0542-01-matrix) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1091-shortest-path-in-binary-matrix) |
@@ -37,4 +38,8 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0542-01-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0542-01-matrix) |
+## Binary Search
+|  |
+| ------- |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 <!---LeetCode Topics End-->
