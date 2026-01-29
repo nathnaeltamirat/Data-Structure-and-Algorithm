@@ -22,6 +22,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [0287-find-the-duplicate-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0542-01-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0542-01-matrix) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 | [0909-snakes-and-ladders](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0909-snakes-and-ladders) |
@@ -55,4 +56,13 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [0287-find-the-duplicate-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
+## Two Pointers
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
