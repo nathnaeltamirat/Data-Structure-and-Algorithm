@@ -7,10 +7,8 @@
 class Solution:
     def sumEvenGrandparent(self, root: Optional[TreeNode]) -> int:
         level = [False] * 10 ** 4
-        curr =  0
         res = [0]
         def traverse(root,idx):
-            nonlocal res
             if root:
                 if root.val % 2 == 0:
                     level[idx] = True
