@@ -23,6 +23,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0004-median-of-two-sorted-arrays) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0287-find-the-duplicate-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0410-split-array-largest-sum) |
@@ -46,6 +47,7 @@ Added CFPUSHER
 ## Hash Table
 |  |
 | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 ## String
 |  |
@@ -91,6 +93,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0004-median-of-two-sorted-arrays) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 ## Stack
 |  |
 | ------- |
@@ -101,6 +104,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0094-binary-tree-inorder-traversal) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0145-binary-tree-postorder-traversal) |
 | [0257-binary-tree-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0257-binary-tree-paths) |
@@ -121,6 +125,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0094-binary-tree-inorder-traversal) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0145-binary-tree-postorder-traversal) |
 | [0257-binary-tree-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0257-binary-tree-paths) |
