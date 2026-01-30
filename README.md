@@ -109,6 +109,7 @@ Added CFPUSHER
 | [0145-binary-tree-postorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0145-binary-tree-postorder-traversal) |
 | [0257-binary-tree-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0257-binary-tree-paths) |
 | [0437-path-sum-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0437-path-sum-iii) |
+| [0450-delete-node-in-a-bst](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0450-delete-node-in-a-bst) |
 | [0572-subtree-of-another-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0572-subtree-of-another-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0701-insert-into-a-binary-search-tree) |
@@ -132,6 +133,7 @@ Added CFPUSHER
 | [0145-binary-tree-postorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0145-binary-tree-postorder-traversal) |
 | [0257-binary-tree-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0257-binary-tree-paths) |
 | [0437-path-sum-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0437-path-sum-iii) |
+| [0450-delete-node-in-a-bst](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0450-delete-node-in-a-bst) |
 | [0572-subtree-of-another-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0572-subtree-of-another-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0701-insert-into-a-binary-search-tree) |
@@ -151,6 +153,7 @@ Added CFPUSHER
 ## Binary Search Tree
 |  |
 | ------- |
+| [0450-delete-node-in-a-bst](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0450-delete-node-in-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0701-insert-into-a-binary-search-tree) |
 <!---LeetCode Topics End-->
