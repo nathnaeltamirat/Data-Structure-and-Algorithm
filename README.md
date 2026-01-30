@@ -111,6 +111,7 @@ Added CFPUSHER
 | [0437-path-sum-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0437-path-sum-iii) |
 | [0572-subtree-of-another-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0572-subtree-of-another-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0700-search-in-a-binary-search-tree) |
+| [0701-insert-into-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0701-insert-into-a-binary-search-tree) |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1315-sum-of-nodes-with-even-valued-grandparent) |
 ## Depth-First Search
 |  |
@@ -133,6 +134,7 @@ Added CFPUSHER
 | [0437-path-sum-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0437-path-sum-iii) |
 | [0572-subtree-of-another-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0572-subtree-of-another-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0700-search-in-a-binary-search-tree) |
+| [0701-insert-into-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0701-insert-into-a-binary-search-tree) |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1315-sum-of-nodes-with-even-valued-grandparent) |
 ## Backtracking
 |  |
@@ -150,4 +152,5 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0700-search-in-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0700-search-in-a-binary-search-tree) |
+| [0701-insert-into-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0701-insert-into-a-binary-search-tree) |
 <!---LeetCode Topics End-->
