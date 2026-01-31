@@ -7,24 +7,19 @@
 class Solution:
     def maxAncestorDiff(self, root: Optional[TreeNode]) -> int:
         res = float('-inf')
-        def returnNodeMaximum(root,val):
-            if not root:
-                return 0
-            dist = abs(root.val - val)
-            left = returnNodeMaximum(root.left,val)
-            right = returnNodeMaximum(root.right,val)
-            max_dist = max(left,right)
-            return max(max_dist,dist)
-        def findMaximum(root):
+
+        def findMaximum(root,curr_min,curr_max):
             nonlocal res
             if not root:
                 return 0
-            res = max(res,returnNodeMaximum(root,root.val))
-            left = findMaximum(root.left)
-            right = findMaximum(root.right)
-            res_max = max(left,right)
-            return max(res_max,res)
-        return findMaximum(root)
+            curr_min = min(curr_min,root.val)
+            curr_max = max(curr_max,root.val)
+    
+            left = findMaximum(root.left,curr_min,curr_max)
+            right = findMaximum(root.right,curr_min,curr_max)
+
+            return max(curr_max-curr_min,left,right)
+        return findMaximum(root,root.val,root.val)
 
         # [8] max = 8  min = 8
         # [3,10]  max = 10 min = 3
