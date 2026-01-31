@@ -12,12 +12,11 @@ class Solution:
             nonlocal prev
             if not root:
                 return True
-            if not inorder(root.left):
-                return False
-            if prev is not None and prev >= root.val:
+            val = inorder(root.left)
+    
+            if prev is not None and root.val <= prev:
                 return False
             prev = root.val
-            return inorder(root.right)
-
+            val = val and inorder(root.right)
+            return val
         return inorder(root)
-            
