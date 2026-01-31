@@ -6,19 +6,22 @@
 #         self.right = right
 class Solution:
     def sumEvenGrandparent(self, root: Optional[TreeNode]) -> int:
-        level = [False] * 10 ** 4
+        level = [0] * 10 ** 4
+        idx = [0]
         res = [0]
+        visited = set([root.val])
         def traverse(root,idx):
-            if root:
-                if root.val % 2 == 0:
-                    level[idx] = True
-                else:
-                    level[idx] = False
-                g_idx = idx - 2
-                if g_idx >= 0 and level[g_idx] == True:
-                    res[0] += root.val
-                traverse(root.left,idx+1)
-                traverse(root.right,idx+1)
-
+            if not root:
+                return
+            if root.val % 2 == 0:
+                level[idx] = 1
+            else:
+                level[idx] = 0
+            
+            if idx - 2 >= 0 and level[idx - 2] == 1:
+                res[0] += root.val
+            traverse(root.left,idx+1)
+            traverse(root.right,idx+1)
         traverse(root,0)
         return res[0]
+
