@@ -14,6 +14,7 @@ Added CFPUSHER
 | [0463-island-perimeter](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0542-01-matrix) |
 | [0617-merge-two-binary-trees](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0617-merge-two-binary-trees) |
+| [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
 | [0815-bus-routes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0815-bus-routes) |
@@ -43,6 +44,7 @@ Added CFPUSHER
 | [0410-split-array-largest-sum](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0410-split-array-largest-sum) |
 | [0463-island-perimeter](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0542-01-matrix) |
+| [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 | [0815-bus-routes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0815-bus-routes) |
@@ -67,6 +69,7 @@ Added CFPUSHER
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0127-word-ladder](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0127-word-ladder) |
+| [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 | [0815-bus-routes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0815-bus-routes) |
 ## String
@@ -140,6 +143,7 @@ Added CFPUSHER
 | [0450-delete-node-in-a-bst](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0450-delete-node-in-a-bst) |
 | [0572-subtree-of-another-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0617-merge-two-binary-trees) |
+| [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
 | [0700-search-in-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0701-insert-into-a-binary-search-tree) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1026-maximum-difference-between-node-and-ancestor) |
@@ -162,6 +166,7 @@ Added CFPUSHER
 | [0463-island-perimeter](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0463-island-perimeter) |
 | [0572-subtree-of-another-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0617-merge-two-binary-trees) |
+| [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1315-sum-of-nodes-with-even-valued-grandparent) |
