@@ -6,23 +6,21 @@
 #         self.right = right
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
-
-        prefix = defaultdict(int)
-        prefix[0] = 1
-
-        
-        def solver(root,curr_sum):
-            if not root:
-                return 0
-            
-            curr_sum += root.val
-            count = prefix[curr_sum - targetSum]
-
-            prefix[curr_sum] += 1
-            count += solver(root.left,curr_sum)
-            count += solver(root.right,curr_sum)
-            prefix[curr_sum] -= 1
-            return count
-        return solver(root,0)
-
-            
+        prefix_sum = defaultdict(int)
+        prefix_sum[0] = 1
+        curr_sum = 0
+        res = 0
+        def traverse(root):
+            nonlocal curr_sum,res
+            if root:
+                curr_sum += root.val
+                res += prefix_sum[curr_sum - targetSum]
+                prefix_sum[curr_sum] += 1
+                
+                traverse(root.left)
+                traverse(root.right)
+                prefix_sum[curr_sum] -= 1
+                curr_sum -= root.val
+                
+        traverse(root)
+        return res
