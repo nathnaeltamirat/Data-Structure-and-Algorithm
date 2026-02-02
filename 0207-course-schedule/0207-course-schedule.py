@@ -2,37 +2,22 @@ class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         graph = defaultdict(list)
         indegree = defaultdict(int)
-        courses =set()
-        for a ,b in prerequisites:
+        color = [-1] * numCourses
+        for a,b in prerequisites:
             graph[b].append(a)
-            courses.add(a)
-            courses.add(b)
             indegree[a] += 1
-        if not prerequisites:
-            return True
-
-        
-        no_cycle = True
-
-        color = [0] * numCourses
         def dfs(node):
-            nonlocal no_cycle
-            if not no_cycle:
-                return
-            color[node] = 1
+            val = True
             for neigh in graph[node]:
-                if color[neigh] == 1:
-                    no_cycle = False
-                    break
+                if color[neigh] == -1:
+                    color[neigh] = 0
+                    val = val and dfs(neigh)
                 elif color[neigh] == 0:
-                    dfs(neigh)
-            
+                    val = False
             color[node] = 2
-
+            return val
         for i in range(numCourses):
-            if color[i] == 0:
-                dfs(i)
-
-        print(no_cycle)
-        return no_cycle 
-            
+            if color[i] == -1:
+                if not dfs(i):
+                    return False
+        return True
