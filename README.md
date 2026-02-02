@@ -11,6 +11,7 @@ Added CFPUSHER
 | [0127-word-ladder](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0127-word-ladder) |
 | [0200-number-of-islands](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0207-course-schedule) |
+| [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0463-island-perimeter](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0542-01-matrix) |
 | [0617-merge-two-binary-trees](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0617-merge-two-binary-trees) |
@@ -31,6 +32,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0207-course-schedule) |
+| [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
 | [1129-shortest-path-with-alternating-colors](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1129-shortest-path-with-alternating-colors) |
 | [1971-find-if-path-exists-in-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1971-find-if-path-exists-in-graph) |
@@ -42,6 +44,7 @@ Added CFPUSHER
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0200-number-of-islands](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0200-number-of-islands) |
 | [0287-find-the-duplicate-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
+| [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0410-split-array-largest-sum](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0410-split-array-largest-sum) |
 | [0463-island-perimeter](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0542-01-matrix) |
@@ -80,6 +83,7 @@ Added CFPUSHER
 | ------- |
 | [0127-word-ladder](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0127-word-ladder) |
 | [0257-binary-tree-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0257-binary-tree-paths) |
+| [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 ## Dynamic Programming
 |  |
@@ -165,6 +169,7 @@ Added CFPUSHER
 | [0230-kth-smallest-element-in-a-bst](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0257-binary-tree-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0257-binary-tree-paths) |
+| [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0437-path-sum-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0437-path-sum-iii) |
 | [0463-island-perimeter](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0463-island-perimeter) |
 | [0572-subtree-of-another-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0572-subtree-of-another-tree) |
@@ -224,6 +229,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
 | [1971-find-if-path-exists-in-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1971-find-if-path-exists-in-graph) |
@@ -231,4 +237,8 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0207-course-schedule) |
+## Shortest Path
+|  |
+| ------- |
+| [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 <!---LeetCode Topics End-->
