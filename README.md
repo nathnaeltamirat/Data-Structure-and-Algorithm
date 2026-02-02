@@ -61,6 +61,7 @@ Added CFPUSHER
 | [1765-map-of-highest-peak](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1765-map-of-highest-peak) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
+| [3356-zero-array-transformation-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/3356-zero-array-transformation-ii) |
 ## Matrix
 |  |
 | ------- |
@@ -104,6 +105,7 @@ Added CFPUSHER
 | [0287-find-the-duplicate-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0410-split-array-largest-sum) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [3356-zero-array-transformation-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/3356-zero-array-transformation-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -125,6 +127,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0410-split-array-largest-sum) |
+| [3356-zero-array-transformation-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/3356-zero-array-transformation-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
