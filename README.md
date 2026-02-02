@@ -15,6 +15,7 @@ Added CFPUSHER
 | [0542-01-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0542-01-matrix) |
 | [0617-merge-two-binary-trees](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0617-merge-two-binary-trees) |
 | [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
+| [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
 | [0815-bus-routes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0815-bus-routes) |
@@ -45,6 +46,7 @@ Added CFPUSHER
 | [0463-island-perimeter](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0542-01-matrix) |
 | [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
+| [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 | [0815-bus-routes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0815-bus-routes) |
@@ -59,6 +61,7 @@ Added CFPUSHER
 | [0200-number-of-islands](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0542-01-matrix) |
+| [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
 | [0909-snakes-and-ladders](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0909-snakes-and-ladders) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1162-as-far-from-land-as-possible](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1162-as-far-from-land-as-possible) |
@@ -167,6 +170,7 @@ Added CFPUSHER
 | [0572-subtree-of-another-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0617-merge-two-binary-trees) |
 | [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
+| [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1315-sum-of-nodes-with-even-valued-grandparent) |
@@ -220,6 +224,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
 | [1971-find-if-path-exists-in-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1971-find-if-path-exists-in-graph) |
 ## Topological Sort
