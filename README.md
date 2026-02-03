@@ -22,6 +22,7 @@ Added CFPUSHER
 | [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0802-find-eventual-safe-states) |
 | [0815-bus-routes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0815-bus-routes) |
 | [0909-snakes-and-ladders](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0909-snakes-and-ladders) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1091-shortest-path-in-binary-matrix) |
@@ -40,6 +41,7 @@ Added CFPUSHER
 | [0210-course-schedule-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0210-course-schedule-ii) |
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0802-find-eventual-safe-states) |
 | [1129-shortest-path-with-alternating-colors](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1129-shortest-path-with-alternating-colors) |
 | [1971-find-if-path-exists-in-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1971-find-if-path-exists-in-graph) |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
@@ -201,6 +203,7 @@ Added CFPUSHER
 | [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
 | [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0802-find-eventual-safe-states) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1315-sum-of-nodes-with-even-valued-grandparent) |
@@ -269,6 +272,7 @@ Added CFPUSHER
 | ------- |
 | [0207-course-schedule](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0210-course-schedule-ii) |
+| [0802-find-eventual-safe-states](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0802-find-eventual-safe-states) |
 ## Shortest Path
 |  |
 | ------- |
