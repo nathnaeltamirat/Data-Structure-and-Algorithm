@@ -17,8 +17,6 @@ class Solution:
                 dfs(root.right)
         dfs(root)
         srt = sorted(n.val for n in temp)
-        for i in range(len(srt)):
+        for i in range(len(temp)):
             temp[i].val = srt[i]
-        print(srt)
-
         
