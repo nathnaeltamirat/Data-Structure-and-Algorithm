@@ -30,6 +30,7 @@ Added CFPUSHER
 | [1129-shortest-path-with-alternating-colors](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1129-shortest-path-with-alternating-colors) |
 | [1162-as-far-from-land-as-possible](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1162-as-far-from-land-as-possible) |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1315-sum-of-nodes-with-even-valued-grandparent) |
+| [1462-course-schedule-iv](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1462-course-schedule-iv) |
 | [1765-map-of-highest-peak](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1765-map-of-highest-peak) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [1971-find-if-path-exists-in-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1971-find-if-path-exists-in-graph) |
@@ -45,6 +46,7 @@ Added CFPUSHER
 | [0802-find-eventual-safe-states](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0802-find-eventual-safe-states) |
 | [0851-loud-and-rich](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0851-loud-and-rich) |
 | [1129-shortest-path-with-alternating-colors](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1129-shortest-path-with-alternating-colors) |
+| [1462-course-schedule-iv](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1462-course-schedule-iv) |
 | [1971-find-if-path-exists-in-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1971-find-if-path-exists-in-graph) |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
@@ -213,6 +215,7 @@ Added CFPUSHER
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1315-sum-of-nodes-with-even-valued-grandparent) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+| [1462-course-schedule-iv](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1462-course-schedule-iv) |
 | [1971-find-if-path-exists-in-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1971-find-if-path-exists-in-graph) |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
@@ -280,6 +283,7 @@ Added CFPUSHER
 | [0210-course-schedule-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0210-course-schedule-ii) |
 | [0802-find-eventual-safe-states](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0802-find-eventual-safe-states) |
 | [0851-loud-and-rich](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0851-loud-and-rich) |
+| [1462-course-schedule-iv](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1462-course-schedule-iv) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 ## Shortest Path
 |  |
