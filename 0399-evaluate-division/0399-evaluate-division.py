@@ -1,35 +1,35 @@
 class Solution:
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
         graph = defaultdict(list)
-        valid_values = set()
+        elements = set()
         for i in range(len(equations)):
-            val = values[i]
             a, b = equations[i]
-            graph[a].append([b,val])
-            graph[b].append([a,1/val])
-            valid_values.add(a)
-            valid_values.add(b)
-        visited = set()
+            value = values[i]
+            graph[a].append([b,value])
+            graph[b].append([a,1/value])
+            elements.add(a)
+            elements.add(b)
+        
         res = []
-        def dfs(source, destination):
-            visited.add(source)
-            if source == destination:
+        visited = set()
+        def dfs(src,dest):
+            if src == dest:
                 return 1
-            val = 1
-            for neigh,neigh_val in graph[source]:
-                if (neigh) not in visited:
-                    val  = dfs(neigh,destination)
+            visited.add(src)
+            for neigh,curr_val in graph[src]:
+                if neigh not in visited:
+                    val = dfs(neigh,dest)
                     if val != -1:
-                        return neigh_val * val
-            return -1
-        for src, des in queries:
-            if src not in valid_values or des not in valid_values:
+                        return val * curr_val
+                    
+            return -1 
+        
+        print(graph)
+        for a,b in queries:
+            if a  not in elements or b not in elements:
                 res.append(-1)
             else:
                 visited = set()
-                res.append(dfs(src,des))
-        print(graph)
-        print(res)
+                print(a,b)
+                res.append(dfs(a,b))
         return res
-
-
