@@ -7,17 +7,17 @@
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
         res = []
-        def traverse(root,temp):
+        temp = []
+        def traverse(root):
+            nonlocal temp,res
             if root:
                 if not root.left and not root.right:
                     temp.append(str(root.val))
-                    if temp:
-                        res.append(int("".join(temp)))
+                    res.append(int("".join(temp)))
                     temp.pop()
-                    return 
                 temp.append(str(root.val))
-                traverse(root.left, temp)
-                traverse(root.right,temp)
+                traverse(root.left)
+                traverse(root.right)
                 temp.pop()
-        traverse(root,[])
+        traverse(root)
         return sum(res)
