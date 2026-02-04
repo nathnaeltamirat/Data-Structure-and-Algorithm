@@ -50,6 +50,7 @@ Added CFPUSHER
 | [1129-shortest-path-with-alternating-colors](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1129-shortest-path-with-alternating-colors) |
 | [1462-course-schedule-iv](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1462-course-schedule-iv) |
 | [1971-find-if-path-exists-in-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1971-find-if-path-exists-in-graph) |
+| [2050-parallel-courses-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2050-parallel-courses-iii) |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 ## Array
@@ -77,6 +78,7 @@ Added CFPUSHER
 | [1162-as-far-from-land-as-possible](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1162-as-far-from-land-as-possible) |
 | [1765-map-of-highest-peak](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1765-map-of-highest-peak) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1926-nearest-exit-from-entrance-in-maze) |
+| [2050-parallel-courses-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2050-parallel-courses-iii) |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 | [3356-zero-array-transformation-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/3356-zero-array-transformation-ii) |
 ## Matrix
@@ -117,6 +119,7 @@ Added CFPUSHER
 | [0818-race-car](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0818-race-car) |
 | [1162-as-far-from-land-as-possible](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1162-as-far-from-land-as-possible) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+| [2050-parallel-courses-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2050-parallel-courses-iii) |
 ## Binary Search
 |  |
 | ------- |
@@ -288,6 +291,7 @@ Added CFPUSHER
 | [0802-find-eventual-safe-states](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0802-find-eventual-safe-states) |
 | [0851-loud-and-rich](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0851-loud-and-rich) |
 | [1462-course-schedule-iv](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1462-course-schedule-iv) |
+| [2050-parallel-courses-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2050-parallel-courses-iii) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 ## Shortest Path
 |  |
