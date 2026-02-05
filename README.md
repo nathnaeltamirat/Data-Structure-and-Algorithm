@@ -38,6 +38,7 @@ Added CFPUSHER
 | [1971-find-if-path-exists-in-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1971-find-if-path-exists-in-graph) |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2360-longest-cycle-in-a-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2360-longest-cycle-in-a-graph) |
 ## Graph Theory
 |  |
 | ------- |
@@ -55,6 +56,7 @@ Added CFPUSHER
 | [2050-parallel-courses-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2050-parallel-courses-iii) |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2360-longest-cycle-in-a-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2360-longest-cycle-in-a-graph) |
 | [2392-build-a-matrix-with-conditions](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2392-build-a-matrix-with-conditions) |
 ## Array
 |  |
@@ -231,6 +233,7 @@ Added CFPUSHER
 | [1971-find-if-path-exists-in-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1971-find-if-path-exists-in-graph) |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2360-longest-cycle-in-a-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2360-longest-cycle-in-a-graph) |
 ## Binary Tree
 |  |
 | ------- |
@@ -300,6 +303,7 @@ Added CFPUSHER
 | [1462-course-schedule-iv](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1462-course-schedule-iv) |
 | [2050-parallel-courses-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2050-parallel-courses-iii) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2360-longest-cycle-in-a-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2360-longest-cycle-in-a-graph) |
 | [2392-build-a-matrix-with-conditions](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2392-build-a-matrix-with-conditions) |
 ## Shortest Path
 |  |
