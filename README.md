@@ -30,6 +30,7 @@ Added CFPUSHER
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1129-shortest-path-with-alternating-colors](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1129-shortest-path-with-alternating-colors) |
 | [1162-as-far-from-land-as-possible](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1162-as-far-from-land-as-possible) |
+| [1203-sort-items-by-groups-respecting-dependencies](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1315-sum-of-nodes-with-even-valued-grandparent) |
 | [1462-course-schedule-iv](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1462-course-schedule-iv) |
 | [1765-map-of-highest-peak](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1765-map-of-highest-peak) |
@@ -48,6 +49,7 @@ Added CFPUSHER
 | [0802-find-eventual-safe-states](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0802-find-eventual-safe-states) |
 | [0851-loud-and-rich](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0851-loud-and-rich) |
 | [1129-shortest-path-with-alternating-colors](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1129-shortest-path-with-alternating-colors) |
+| [1203-sort-items-by-groups-respecting-dependencies](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
 | [1462-course-schedule-iv](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1462-course-schedule-iv) |
 | [1971-find-if-path-exists-in-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1971-find-if-path-exists-in-graph) |
 | [2050-parallel-courses-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2050-parallel-courses-iii) |
@@ -219,6 +221,7 @@ Added CFPUSHER
 | [0851-loud-and-rich](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0851-loud-and-rich) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+| [1203-sort-items-by-groups-respecting-dependencies](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1315-sum-of-nodes-with-even-valued-grandparent) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1462-course-schedule-iv](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1462-course-schedule-iv) |
@@ -290,6 +293,7 @@ Added CFPUSHER
 | [0310-minimum-height-trees](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0310-minimum-height-trees) |
 | [0802-find-eventual-safe-states](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0802-find-eventual-safe-states) |
 | [0851-loud-and-rich](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0851-loud-and-rich) |
+| [1203-sort-items-by-groups-respecting-dependencies](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
 | [1462-course-schedule-iv](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1462-course-schedule-iv) |
 | [2050-parallel-courses-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2050-parallel-courses-iii) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
