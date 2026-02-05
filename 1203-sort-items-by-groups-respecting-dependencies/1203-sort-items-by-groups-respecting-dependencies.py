@@ -1,47 +1,52 @@
 class Solution:
     def sortItems(self, n: int, m: int, group: List[int], beforeItems: List[List[int]]) -> List[int]:
-
-        item_indegree = defaultdict(int)
-        item_graph = defaultdict(list)
-        group_indegree = defaultdict(int)
+        new_group = m
         group_graph = defaultdict(list)
-        new_group = n
-        for idx,g in enumerate(group):
-            if g == -1:
-                group[idx] = new_group
-                new_group += 1
+        indegree_group = defaultdict(int)
+        indegree_item = defaultdict(int)
+        item_graph = defaultdict(list)
+        for i in range(len(group)):
+            if group[i] == -1:
+                group[i] = new_group
+                new_group +=1
 
-        for i in range(len(beforeItems)):
-            for item in beforeItems[i]:
-                item_indegree[i] += 1
-                item_graph[item].append(i)
-                if group[item] != group[i]:
-                    group_graph[group[item]].append(group[i])
-                    group_indegree[group[i]] += 1
         def bfs(graph,indegree,nodes):
             q = deque([node for node in nodes if indegree[node] == 0])
             order = []
             while q:
-                item = q.popleft()
-                order.append(item)
-                for neigh in graph[item]:
+                items = q.popleft()
+                order.append(items)
+                for neigh in graph[items]:
                     indegree[neigh] -= 1
                     if indegree[neigh] == 0:
                         q.append(neigh)
             return order if len(order) == len(nodes) else []
-        groups = list(range(new_group))
-        grouped_item = bfs(group_graph,group_indegree,groups)
-        if not grouped_item:
+
+       
+        for i in range(len(beforeItems)):
+            for item in beforeItems[i]:
+                if group[i] != group[item]:
+                    group_graph[group[item]].append(group[i])
+                    indegree_group[group[i]] +=1
+                item_graph[item].append(i)
+                indegree_item[i] += 1
+        group_list = list(range(new_group))
+        item_list = list(range(n))
+        print(group_graph,indegree_group)
+        groupped_order = bfs(group_graph,indegree_group,group_list)
+        if not groupped_order:
             return []
-        items = list(range(n))
-        ordered_item = bfs(item_graph,item_indegree,items)
-        if not ordered_item:
+
+        item_order = bfs(item_graph,indegree_item,item_list)
+        if not item_order:
             return []
-        
-        grouped_sorted_item = defaultdict(list)
-        for item in ordered_item:
-            grouped_sorted_item[group[item]].append(item)
+        print(groupped_order)
+        group_holder = defaultdict(list)
+        for item in item_order:
+            group_holder[group[item]].append(item)
         res = []
-        for single_group in grouped_item:
-            res.extend(grouped_sorted_item[single_group])
+        for i in groupped_order:
+            res.extend(group_holder[i])
+        print(res)
         return res
+        
