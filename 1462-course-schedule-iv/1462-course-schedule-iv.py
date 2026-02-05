@@ -1,12 +1,14 @@
 class Solution:
     def checkIfPrerequisite(self, numCourses: int, prerequisites: List[List[int]], queries: List[List[int]]) -> List[bool]:
         graph = defaultdict(list)
-        hasher = defaultdict(set)
         indegree = defaultdict(int)
+        res = [False] * len(queries)
         q = deque()
-        for a,b in prerequisites:
-            graph[b].append(a)
-            indegree[a] += 1
+        holder = defaultdict(set)
+
+        for a, b in prerequisites:
+            graph[a].append(b)
+            indegree[b] += 1
         for i in range(numCourses):
             if indegree[i] == 0:
                 q.append(i)
@@ -14,16 +16,14 @@ class Solution:
             node = q.popleft()
             for neigh in graph[node]:
                 indegree[neigh] -= 1
-                hasher[neigh].add(node)
-                hasher[neigh].update(hasher[node])
+                holder[neigh].update(holder[node])
+                holder[neigh].add(node)
                 if indegree[neigh] == 0:
                     q.append(neigh)
-        res = []
-        for a,b in queries:
-            if b in hasher[a]:
-                res.append(True)
+        for i in range(len(queries)):
+            a, b = queries[i]
+            if a in holder[b]:
+                res[i] = True
             else:
-                res.append(False)
-        print(res)
-        print(hasher)
+                res[i] = False
         return res
