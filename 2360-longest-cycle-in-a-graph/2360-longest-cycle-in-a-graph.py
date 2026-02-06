@@ -1,22 +1,24 @@
 class Solution:
     def longestCycle(self, edges: List[int]) -> int:
+        #using visited:
+        visited = [False] * len(edges)
+        node_step = {}
         res = -1
-        n  = len(edges)
-        visited = [False] * n
-        for i in range(n):
-            if not visited[i]:
-                node = i
-                step = 0
-                node_to_step = {}
-                while node != -1:
-                    if visited[node]:
-                        break
-                    if node in node_to_step:
-                        res = max(res, step - node_to_step[node])
-                        break
-                    node_to_step[node] = step
-                    step += 1
-                    node = edges[node]
-                for node in node_to_step:
-                    visited[node] = True
+        for i in range(len(edges)):
+            if visited[i]:
+                continue
+            node = i
+            step = 0
+            node_step = {}
+            while node != -1 and not visited[node]:
+                visited[node] = True
+                node_step[node] = step
+                node = edges[node]
+                step += 1
+                if node in node_step:
+                    res = max(res,step - node_step[node])
+                    break
+       
+
+
         return res
