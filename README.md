@@ -23,6 +23,7 @@ Added CFPUSHER
 | [0684-redundant-connection](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0684-redundant-connection) |
 | [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
 | [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0802-find-eventual-safe-states) |
@@ -80,6 +81,7 @@ Added CFPUSHER
 | [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
 | [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0721-accounts-merge](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 | [0815-bus-routes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0815-bus-routes) |
 | [0851-loud-and-rich](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0851-loud-and-rich) |
@@ -115,6 +117,7 @@ Added CFPUSHER
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0127-word-ladder](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0127-word-ladder) |
 | [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
+| [0721-accounts-merge](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 | [0815-bus-routes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0815-bus-routes) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
@@ -124,6 +127,7 @@ Added CFPUSHER
 | [0127-word-ladder](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0127-word-ladder) |
 | [0257-binary-tree-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0257-binary-tree-paths) |
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
+| [0721-accounts-merge](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 ## Dynamic Programming
 |  |
@@ -156,6 +160,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0721-accounts-merge](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0721-accounts-merge) |
 ## Greedy
 |  |
 | ------- |
@@ -230,6 +235,7 @@ Added CFPUSHER
 | [0684-redundant-connection](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0684-redundant-connection) |
 | [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
 | [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0721-accounts-merge) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0802-find-eventual-safe-states) |
 | [0851-loud-and-rich](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0851-loud-and-rich) |
@@ -300,6 +306,7 @@ Added CFPUSHER
 | [0547-number-of-provinces](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0721-accounts-merge) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
 | [1971-find-if-path-exists-in-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1971-find-if-path-exists-in-graph) |
 ## Topological Sort
