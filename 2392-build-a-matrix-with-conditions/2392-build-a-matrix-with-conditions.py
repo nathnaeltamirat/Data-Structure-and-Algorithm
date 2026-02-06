@@ -4,45 +4,39 @@ class Solution:
             q = deque([node for node in nodes if indegree[node] == 0])
             order = []
             while q:
-                item = q.popleft()
-                order.append(item)
-                for neigh in graph[item]:
+                node = q.popleft()
+                order.append(node)
+                for neigh in graph[node]:
                     indegree[neigh] -= 1
                     if indegree[neigh] == 0:
                         q.append(neigh)
-            return order if len(order) == len(nodes) else [] #cycle detected
+            return order if len(order) == len(nodes) else []
         row_graph = defaultdict(list)
+        column_graph = defaultdict(list)
         row_indegree = defaultdict(int)
-        col_graph = defaultdict(list)
-        col_indegree = defaultdict(int)
-    
+        column_indegree = defaultdict(int)
         for a, b in rowConditions:
             row_graph[a].append(b)
             row_indegree[b] += 1
-        for a ,b in colConditions:
-            col_graph[a].append(b)
-            col_indegree[b] += 1
-        # print(col_graph)
-        all_node = list(range(1,k+1))
-        row_ordered = bfs(row_graph,row_indegree,all_node)
-        if not row_ordered:
+        for a, b in colConditions:
+            column_graph[a].append(b)
+            column_indegree[b] += 1
+        all_nodes = list(range(1,k+1))
+        row_order = bfs(row_graph,row_indegree,all_nodes)
+        if not row_order:
             return []
-        col_ordered = bfs(col_graph,col_indegree,all_node)
-
-
-        if not col_ordered:
+        column_order = bfs(column_graph,column_indegree,all_nodes)
+        if not column_order:
             return []
-        row = {num:i for i , num in enumerate(row_ordered)}
-        col = {num: i for i , num in enumerate(col_ordered)}
-        mat = [ [0]*k for _ in range(k)]
-        print(row,col)
+        row_pos = {row_order[i]: i for i in range(len(row_order))}
+        col_pos = {column_order[i]: i for i in range(len(column_order)) }
+        matrix = [[0] * k for _ in range(k)]
         for i in range(1,k+1):
-            r = row[i]
-            c = col[i]
-            mat[r][c] = i
-        print(mat)
-        return mat
-        # print(row_ordered)
-        # print(col_ordered)
-
-                    
+            r = row_pos[i]
+            c = col_pos[i]
+            matrix[r][c] = i
+        print(matrix)
+        print(row_order)
+        print(column_order)
+        return matrix
+        
