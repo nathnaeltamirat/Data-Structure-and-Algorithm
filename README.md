@@ -20,6 +20,7 @@ Added CFPUSHER
 | [0542-01-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0547-number-of-provinces) |
 | [0617-merge-two-binary-trees](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0617-merge-two-binary-trees) |
+| [0684-redundant-connection](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0684-redundant-connection) |
 | [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
 | [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
@@ -48,6 +49,7 @@ Added CFPUSHER
 | [0310-minimum-height-trees](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0310-minimum-height-trees) |
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0684-redundant-connection) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0802-find-eventual-safe-states) |
 | [0851-loud-and-rich](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0851-loud-and-rich) |
@@ -225,6 +227,7 @@ Added CFPUSHER
 | [0547-number-of-provinces](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0617-merge-two-binary-trees) |
+| [0684-redundant-connection](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0684-redundant-connection) |
 | [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
 | [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
@@ -295,6 +298,7 @@ Added CFPUSHER
 | [0200-number-of-islands](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
 | [1971-find-if-path-exists-in-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1971-find-if-path-exists-in-graph) |
