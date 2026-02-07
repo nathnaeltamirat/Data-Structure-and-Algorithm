@@ -1,7 +1,8 @@
 class UnionFind:
-    def __init__(self):
+    def __init__(self,n):
         self.parent = dict()
         self.size = defaultdict(lambda:1)
+        self.isConnected = n
     
     def find(self,x):
         if x not in self.parent:
@@ -22,24 +23,26 @@ class UnionFind:
             else:
                 self.parent[rootx] = rooty
                 self.size[rooty] += self.size[rootx]
+            self.isConnected-=1
 
 
 class Solution:
     def removeStones(self, stones: List[List[int]]) -> int:
-        dsu = UnionFind()
-        parent  = defaultdict(int)
+        n = len(stones)
+        dsu = UnionFind(n)
+        row = {}
+        col = {}
+        
+        for i in range(len(stones)):
+            x,y = stones[i]
+            if x in row:
+                dsu.union(row[x],i)
+            else:
+                row[x] = i
+            if y in col:
+                dsu.union(col[y],i)
+            else:
+                col[y] = i
 
-        for i in range(len(stones)):
-            x, y = stones[i]
-            for j in range(i+1,len(stones)):
-                new_x, new_y = stones[j]
-                if new_x == x or new_y == y:
-                    dsu.union(i,j)
-        for i in range(len(stones)):
-            parent[dsu.find(i)] += 1
-        res = 0
-        for i in parent:
-            res += parent[i] - 1
-        return res
-        print(parent)
+        return n - dsu.isConnected
             
