@@ -60,6 +60,7 @@ Added CFPUSHER
 | [1129-shortest-path-with-alternating-colors](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1129-shortest-path-with-alternating-colors) |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
 | [1462-course-schedule-iv](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1462-course-schedule-iv) |
+| [1579-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1579-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [1591-strange-printer-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1591-strange-printer-ii) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
 | [1971-find-if-path-exists-in-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1971-find-if-path-exists-in-graph) |
@@ -326,6 +327,7 @@ Added CFPUSHER
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0959-regions-cut-by-slashes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0959-regions-cut-by-slashes) |
 | [0990-satisfiability-of-equality-equations](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0990-satisfiability-of-equality-equations) |
+| [1579-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1579-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
 | [1971-find-if-path-exists-in-graph](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1971-find-if-path-exists-in-graph) |
 ## Topological Sort
