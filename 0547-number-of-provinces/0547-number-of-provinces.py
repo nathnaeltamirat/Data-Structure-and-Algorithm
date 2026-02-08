@@ -1,37 +1,38 @@
 class UnionFind:
-    def __init__(self,size):
-        self.parent = {i:i for i in range((size))}
-        self.size = [1] * size
+    def __init__(self,n):
+        self.parent = dict()
+        self.size = defaultdict(lambda : 1)
+        self.connected = n
     def find(self,x):
-        while  self.parent[x] != x:
-            self.parent[x] = self.parent[self.parent[x]]
-            x = self.parent[x]
-        return x
-    def CountProvince(self):
-        count = set()
-        for i in range(len(self.size)):
-            count.add(self.find(i))
-        print(count)
-        return len(count)
+        if x not in self.parent:
+            self.parent[x] = x
+            return x
+        if x == self.parent[x]:
+            return x
+        self.parent[x] = self.find(self.parent[x])
+        return self.parent[x]
+    
     def union(self,x,y):
         rootx = self.find(x)
         rooty = self.find(y)
         if rootx != rooty:
             if self.size[rootx] > self.size[rooty]:
                 self.parent[rooty] = rootx
-                self.size[rootx] += self.size[rooty]
+                self.size[rootx] += rooty
             else:
                 self.parent[rootx] = rooty
-                self.size[rooty] += self.size[rootx]
-    def isConnected(self,x,y):
-        return self.find(x) == self.find(y)
-    
+                self.size[rooty] += rootx
+            self.connected -= 1
+     
+
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
         n = len(isConnected)
         dsu = UnionFind(n)
+        
         for i in range(n):
             for j in range(n):
-                if isConnected[i][j] != 0:
+                if i != j and isConnected[i][j] == 1:
                     dsu.union(i,j)
-        return dsu.CountProvince()
+        
+        return dsu.connected
