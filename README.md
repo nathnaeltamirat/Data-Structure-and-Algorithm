@@ -78,6 +78,7 @@ Added CFPUSHER
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0011-container-with-most-water) |
+| [0088-merge-sorted-array](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0130-surrounded-regions](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0130-surrounded-regions) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
@@ -180,6 +181,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0011-container-with-most-water) |
+| [0088-merge-sorted-array](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0088-merge-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -193,6 +195,7 @@ Added CFPUSHER
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0088-merge-sorted-array) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0721-accounts-merge) |
 | [0881-boats-to-save-people](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0881-boats-to-save-people) |
