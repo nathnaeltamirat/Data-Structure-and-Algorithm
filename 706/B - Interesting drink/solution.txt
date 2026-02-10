@@ -1,0 +1,1 @@
+from bisect import bisect_rightn = int(input())shops = list(map(int,input().split()))shops.sort()q = int(input())for _ in range(q):    coin = int(input())    index = bisect_right(shops,coin)    print(index)         # print(index)    # 3 6 8 10 11
