@@ -110,6 +110,7 @@ Added CFPUSHER
 | [2050-parallel-courses-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2050-parallel-courses-iii) |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 | [2392-build-a-matrix-with-conditions](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2392-build-a-matrix-with-conditions) |
+| [2491-divide-players-into-teams-of-equal-skill](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 | [3356-zero-array-transformation-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/3356-zero-array-transformation-ii) |
 ## Matrix
 |  |
@@ -143,6 +144,7 @@ Added CFPUSHER
 | [0959-regions-cut-by-slashes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0959-regions-cut-by-slashes) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1202-smallest-string-with-swaps](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1202-smallest-string-with-swaps) |
+| [2491-divide-players-into-teams-of-equal-skill](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 ## String
 |  |
 | ------- |
@@ -179,6 +181,7 @@ Added CFPUSHER
 | [0287-find-the-duplicate-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
+| [2491-divide-players-into-teams-of-equal-skill](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -190,6 +193,7 @@ Added CFPUSHER
 | [0721-accounts-merge](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0721-accounts-merge) |
 | [1202-smallest-string-with-swaps](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1202-smallest-string-with-swaps) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
+| [2491-divide-players-into-teams-of-equal-skill](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 ## Greedy
 |  |
 | ------- |
