@@ -95,6 +95,7 @@ Added CFPUSHER
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 | [0815-bus-routes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0815-bus-routes) |
 | [0851-loud-and-rich](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0851-loud-and-rich) |
+| [0881-boats-to-save-people](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0881-boats-to-save-people) |
 | [0909-snakes-and-ladders](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0909-snakes-and-ladders) |
 | [0924-minimize-malware-spread](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0924-minimize-malware-spread) |
 | [0959-regions-cut-by-slashes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0959-regions-cut-by-slashes) |
@@ -180,6 +181,7 @@ Added CFPUSHER
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0881-boats-to-save-people](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0881-boats-to-save-people) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 ## Bit Manipulation
@@ -191,6 +193,7 @@ Added CFPUSHER
 | ------- |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0721-accounts-merge) |
+| [0881-boats-to-save-people](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0881-boats-to-save-people) |
 | [1202-smallest-string-with-swaps](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1202-smallest-string-with-swaps) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2491-divide-players-into-teams-of-equal-skill) |
@@ -198,6 +201,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0410-split-array-largest-sum) |
+| [0881-boats-to-save-people](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0881-boats-to-save-people) |
 ## Prefix Sum
 |  |
 | ------- |
