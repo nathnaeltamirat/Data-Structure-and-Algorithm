@@ -96,6 +96,7 @@ Added CFPUSHER
 | [0475-heaters](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0475-heaters) |
 | [0529-minesweeper](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0542-01-matrix) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0643-maximum-average-subarray-i](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0643-maximum-average-subarray-i) |
 | [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
 | [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
@@ -150,6 +151,7 @@ Added CFPUSHER
 | [0424-longest-repeating-character-replacement](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0567-permutation-in-string) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
 | [0721-accounts-merge](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
@@ -225,6 +227,7 @@ Added CFPUSHER
 | ------- |
 | [0088-merge-sorted-array](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0088-merge-sorted-array) |
 | [0475-heaters](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0475-heaters) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0721-accounts-merge) |
 | [0881-boats-to-save-people](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0881-boats-to-save-people) |
@@ -236,6 +239,7 @@ Added CFPUSHER
 | ------- |
 | [0011-container-with-most-water](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0011-container-with-most-water) |
 | [0410-split-array-largest-sum](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0410-split-array-largest-sum) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0763-partition-labels](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0763-partition-labels) |
 | [0881-boats-to-save-people](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0881-boats-to-save-people) |
 ## Prefix Sum
@@ -433,6 +437,7 @@ Added CFPUSHER
 | [0424-longest-repeating-character-replacement](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0567-permutation-in-string) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0643-maximum-average-subarray-i](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0643-maximum-average-subarray-i) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 ## Queue
@@ -442,6 +447,7 @@ Added CFPUSHER
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 ## Monotonic Queue
 |  |
