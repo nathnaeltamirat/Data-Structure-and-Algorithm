@@ -1,38 +1,41 @@
 class Solution:
     def snakesAndLadders(self, board: List[List[int]]) -> int:
         n = len(board)
-        fragmented = [-1] * (n * n)
+        flattned = [-1] *(n * n)
+        curr = 0
+        res = -1
         ltor = True
-        target = (n*n) - 1
-        idx = 0
         for i in range(n-1,-1,-1):
-            j = range(n) if ltor else range(n-1,-1,-1)
-            for k in j:
-                if board[i][k] != -1:
-                    fragmented[idx] = board[i][k] - 1
-                idx+=1
+            col = range(0,n) if ltor else range(n-1,-1,-1)
+            for j in col:
+                if board[i][j] != -1:
+                    flattned[curr] = board[i][j] - 1 
+                curr+=1
             ltor = not ltor
-        
         q = deque([0])
         visited = set([0])
-        dist = 1
+        dist =  0
+        target = n*n - 1
         while q:
-            t = len(q)
-            for _ in range(t):
+            length = len(q)
+            # print(q)
+            for _ in range(length):
                 curr = q.popleft()
-                for i in range(curr + 1,min(curr+7,n**n)):
-                    if i == target or  fragmented[i] == target:
-                        return dist
-                    if fragmented[i] == -1:
-                        if i not in visited:
-                            visited.add(i)
-                            q.append(i)
+                for i in range(curr + 1, min(curr + 6, (n ** n - 1)) + 1):
+                    
+                    val = flattned[i]
+                    if val == target or i == target:
+                        return dist + 1
+                    if val !=  -1:
+                        if val not in visited:
+                            q.append(val)
+                            visited.add(val)
                     else:
-                        if fragmented[i] not in visited:
-                            visited.add(fragmented[i])
-                            q.append(fragmented[i])
+                        if i not in visited:
+                            q.append(i)
+                            visited.add(i)
             dist += 1
-                        
-        print(fragmented)
-        print(dist)
         return -1
+                    
+
+
