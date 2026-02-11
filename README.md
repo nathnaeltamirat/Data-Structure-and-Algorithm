@@ -148,6 +148,7 @@ Added CFPUSHER
 | [0127-word-ladder](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0127-word-ladder) |
 | [0424-longest-repeating-character-replacement](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0567-permutation-in-string) |
 | [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
 | [0721-accounts-merge](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
@@ -168,6 +169,7 @@ Added CFPUSHER
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0424-longest-repeating-character-replacement](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0567-permutation-in-string) |
 | [0721-accounts-merge](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 | [0763-partition-labels](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0763-partition-labels) |
@@ -206,6 +208,7 @@ Added CFPUSHER
 | [0189-rotate-array](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0189-rotate-array) |
 | [0287-find-the-duplicate-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0475-heaters](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0475-heaters) |
+| [0567-permutation-in-string](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0567-permutation-in-string) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0763-partition-labels](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0763-partition-labels) |
 | [0881-boats-to-save-people](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0881-boats-to-save-people) |
@@ -426,5 +429,6 @@ Added CFPUSHER
 | [0209-minimum-size-subarray-sum](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
