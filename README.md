@@ -95,6 +95,7 @@ Added CFPUSHER
 | [0475-heaters](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0475-heaters) |
 | [0529-minesweeper](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0542-01-matrix) |
+| [0643-maximum-average-subarray-i](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0643-maximum-average-subarray-i) |
 | [0690-employee-importance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0690-employee-importance) |
 | [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -409,4 +410,8 @@ Added CFPUSHER
 |  |
 | ------- |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
