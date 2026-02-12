@@ -3,29 +3,28 @@ class Solution:
         """
         Do not return anything, modify board in-place instead.
         """
+        row , column = len(board), len(board[0])
         direction = [(1,0),(0,1),(-1,0),(0,-1)]
-        row , column = len(board),len(board[0])
-        def inBound(r,c):
-            return r >= 0 and r < row and c >= 0  and c < column
-        def inBorder(r,c):
-            return r == 0 or c == 0  or r == row-1 or c == column-1
-        
-        def dfs(r,c):
-            board[r][c] = "T"
+        def inBound(x,y):
+            return x >= 0 and x < row and y >= 0 and y < column
+        def dfs(i,j):
             for x, y in direction:
-                new_r = x + r
-                new_c = y + c
-                if inBound(new_r,new_c) and board[new_r][new_c] == "O":
-                    dfs(new_r,new_c)
+                new_x = x + i
+                new_y = y + j
+                if inBound(new_x,new_y) and board[new_x][new_y] == "O":
+                    board[new_x][new_y] = "T"
+                    dfs(new_x,new_y)
         for i in range(row):
             for j in range(column):
-                if inBorder(i,j) and board[i][j] == "O":
-
-                    dfs(i,j)
-        print(board)
+                if i == 0 or j == 0  or i == row - 1 or j == column -1:
+                    if board[i][j] == 'O':
+                        board[i][j] = "T"
+                        dfs(i,j)
+                
         for i in range(row):
             for j in range(column):
                 if board[i][j] == "O":
                     board[i][j] = "X"
                 elif board[i][j] == "T":
                     board[i][j] = "O"
+        print(board)
