@@ -107,6 +107,7 @@ Added CFPUSHER
 | [0851-loud-and-rich](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0851-loud-and-rich) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0881-boats-to-save-people](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0881-boats-to-save-people) |
+| [0904-fruit-into-baskets](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0904-fruit-into-baskets) |
 | [0909-snakes-and-ladders](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0909-snakes-and-ladders) |
 | [0924-minimize-malware-spread](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0924-minimize-malware-spread) |
 | [0959-regions-cut-by-slashes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0959-regions-cut-by-slashes) |
@@ -157,6 +158,7 @@ Added CFPUSHER
 | [0752-open-the-lock](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0752-open-the-lock) |
 | [0763-partition-labels](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0763-partition-labels) |
 | [0815-bus-routes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0815-bus-routes) |
+| [0904-fruit-into-baskets](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0904-fruit-into-baskets) |
 | [0924-minimize-malware-spread](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0924-minimize-malware-spread) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0959-regions-cut-by-slashes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0959-regions-cut-by-slashes) |
@@ -440,6 +442,7 @@ Added CFPUSHER
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0643-maximum-average-subarray-i](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0643-maximum-average-subarray-i) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
+| [0904-fruit-into-baskets](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0904-fruit-into-baskets) |
 ## Queue
 |  |
 | ------- |
