@@ -1,35 +1,39 @@
 class Solution:
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
+        all_items = set()
         graph = defaultdict(list)
-        elements = set()
         for i in range(len(equations)):
-            a, b = equations[i]
-            value = values[i]
-            graph[a].append([b,value])
-            graph[b].append([a,1/value])
-            elements.add(a)
-            elements.add(b)
+            equation = equations[i]
+            val = values[i]
+            a, b = equation
+            graph[a].append([b,val])
+            graph[b].append([a,1/val])
+            all_items.add(a)
+            all_items.add(b)
+        
+        visited = set()
+        def dfs(node,target):
+            if node == target:
+                return 1
+            visited.add(node)
+            for neigh,next_val in graph[node]:
+                if neigh not in visited:
+                    
+                    val =  dfs(neigh,target)
+                    if val:
+                        return val * next_val 
+            return 0
         
         res = []
-        visited = set()
-        def dfs(src,dest):
-            if src == dest:
-                return 1
-            visited.add(src)
-            for neigh,curr_val in graph[src]:
-                if neigh not in visited:
-                    val = dfs(neigh,dest)
-                    if val != -1:
-                        return val * curr_val
-                    
-            return -1 
-        
-        print(graph)
-        for a,b in queries:
-            if a  not in elements or b not in elements:
+        for a, b in queries:
+            if a not in all_items or b not in all_items:
                 res.append(-1)
+                continue
+            visited = set()
+            val =  dfs(a,b)
+            if val:
+                res.append(val)
             else:
-                visited = set()
-                print(a,b)
-                res.append(dfs(a,b))
+                res.append(-1)
+        
         return res
