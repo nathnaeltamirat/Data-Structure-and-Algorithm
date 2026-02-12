@@ -9,15 +9,17 @@ class Solution:
         res = []
         temp = []
         def traverse(root):
-            nonlocal temp,res
+            
             if root:
                 if not root.left and not root.right:
                     temp.append(str(root.val))
                     res.append(int("".join(temp)))
                     temp.pop()
+                    return
                 temp.append(str(root.val))
                 traverse(root.left)
                 traverse(root.right)
                 temp.pop()
         traverse(root)
+        print(res)
         return sum(res)
