@@ -16,7 +16,7 @@ class Solution:
                 temp.append(root)
                 dfs(root.right)
         dfs(root)
-        srt = sorted(n.val for n in temp)
+        sorted_tree = sorted(node.val for node in temp)
         for i in range(len(temp)):
-            temp[i].val = srt[i]
-        
+            temp[i].val = sorted_tree[i]
+        print(sorted_tree)
