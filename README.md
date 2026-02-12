@@ -180,6 +180,7 @@ Added CFPUSHER
 | [0763-partition-labels](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0763-partition-labels) |
 | [0990-satisfiability-of-equality-equations](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0990-satisfiability-of-equality-equations) |
 | [1202-smallest-string-with-swaps](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1202-smallest-string-with-swaps) |
+| [1208-get-equal-substrings-within-budget](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1208-get-equal-substrings-within-budget) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -203,6 +204,7 @@ Added CFPUSHER
 | [0475-heaters](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0475-heaters) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
+| [1208-get-equal-substrings-within-budget](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1208-get-equal-substrings-within-budget) |
 | [3356-zero-array-transformation-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/3356-zero-array-transformation-ii) |
 ## Two Pointers
 |  |
@@ -250,6 +252,7 @@ Added CFPUSHER
 | [0209-minimum-size-subarray-sum](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0209-minimum-size-subarray-sum) |
 | [0410-split-array-largest-sum](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0410-split-array-largest-sum) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
+| [1208-get-equal-substrings-within-budget](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1208-get-equal-substrings-within-budget) |
 | [3356-zero-array-transformation-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/3356-zero-array-transformation-ii) |
 ## Divide and Conquer
 |  |
@@ -443,6 +446,7 @@ Added CFPUSHER
 | [0643-maximum-average-subarray-i](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0643-maximum-average-subarray-i) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0904-fruit-into-baskets](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0904-fruit-into-baskets) |
+| [1208-get-equal-substrings-within-budget](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1208-get-equal-substrings-within-budget) |
 ## Queue
 |  |
 | ------- |
