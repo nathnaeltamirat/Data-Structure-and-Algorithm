@@ -7,14 +7,13 @@
 class Solution:
     def maxAncestorDiff(self, root: Optional[TreeNode]) -> int:
         res = 0
-        def traverse(root,min_sum,max_sum):
+        def traverse(root,h,l):
             nonlocal res
             if root:
-                min_sum = min(root.val,min_sum)
-                max_sum = max(root.val,max_sum)
-
-                res = max(res,max_sum - min_sum)
-                traverse(root.left,min_sum,max_sum)
-                traverse(root.right,min_sum,max_sum)
-        traverse(root,float('inf'),float('-inf'))
+                h = max(h,root.val)
+                l = min(l,root.val)
+                res = max(res,h-l)
+                traverse(root.left,h,l)
+                traverse(root.right,h,l)
+        traverse(root,float('-inf'),float('inf'))
         return res
