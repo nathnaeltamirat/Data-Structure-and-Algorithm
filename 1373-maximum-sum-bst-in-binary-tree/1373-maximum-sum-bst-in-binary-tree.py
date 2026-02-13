@@ -11,26 +11,23 @@ class Solution:
             nonlocal res
             if not root:
                 return [True,0,float('inf'),float('-inf')]
-            l_bst, l_sum , l_min, l_max = isBST(root.left)
-            r_bst, r_sum, r_min, r_max = isBST(root.right)
-            if l_bst and r_bst and  l_max < root.val < r_min:
-                res = max(res,l_sum + r_sum + root.val)
-                return(
-                    True,
-                    l_sum + r_sum + root.val,
-                    min(l_min,root.val),
-                    max(r_max,root.val)
-                )
+            l_bst,l_sum,l_min,l_max = isBST(root.left)
+            r_bst,r_sum,r_min,r_max = isBST(root.right)
 
-            return(
+            if l_bst and r_bst and l_max < root.val < r_min:
+                curr_sum = root.val + l_sum + r_sum
+                res = max(res,curr_sum)
+                return[
+                    True,
+                    curr_sum,
+                    min(root.val,l_min),
+                    max(root.val,r_max)
+                ]
+            return [
                 False,
                 0,
                 float('inf'),
                 float('-inf')
-            )
+            ]
         isBST(root)
-        return res 
-
-                
-                
-            
+        return res
