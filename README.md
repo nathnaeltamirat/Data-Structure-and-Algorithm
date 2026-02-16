@@ -123,6 +123,7 @@ Added CFPUSHER
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2050-parallel-courses-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2050-parallel-courses-iii) |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
+| [2305-fair-distribution-of-cookies](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2305-fair-distribution-of-cookies) |
 | [2392-build-a-matrix-with-conditions](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2392-build-a-matrix-with-conditions) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 | [3356-zero-array-transformation-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/3356-zero-array-transformation-ii) |
@@ -194,6 +195,7 @@ Added CFPUSHER
 | [1162-as-far-from-land-as-possible](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1162-as-far-from-land-as-possible) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [2050-parallel-courses-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2050-parallel-courses-iii) |
+| [2305-fair-distribution-of-cookies](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2305-fair-distribution-of-cookies) |
 ## Binary Search
 |  |
 | ------- |
@@ -231,6 +233,7 @@ Added CFPUSHER
 | ------- |
 | [0078-subsets](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0078-subsets) |
 | [0287-find-the-duplicate-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
+| [2305-fair-distribution-of-cookies](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2305-fair-distribution-of-cookies) |
 ## Sorting
 |  |
 | ------- |
@@ -375,6 +378,7 @@ Added CFPUSHER
 | [0078-subsets](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0078-subsets) |
 | [0257-binary-tree-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0257-binary-tree-paths) |
 | [1849-splitting-a-string-into-descending-consecutive-values](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1849-splitting-a-string-into-descending-consecutive-values) |
+| [2305-fair-distribution-of-cookies](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2305-fair-distribution-of-cookies) |
 ## String Matching
 |  |
 | ------- |
@@ -473,4 +477,8 @@ Added CFPUSHER
 |  |
 | ------- |
 | [1849-splitting-a-string-into-descending-consecutive-values](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1849-splitting-a-string-into-descending-consecutive-values) |
+## Bitmask
+|  |
+| ------- |
+| [2305-fair-distribution-of-cookies](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2305-fair-distribution-of-cookies) |
 <!---LeetCode Topics End-->
