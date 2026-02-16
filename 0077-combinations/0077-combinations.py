@@ -9,7 +9,8 @@ class Solution:
                 print(path)
                 res.append(path[:])
                 return
-            for i in range(curr, n+1):
+            max_pos = n - (k  - len(path)) + 1
+            for i in range(curr, max_pos+1):
                 path.append(i)
                 backtrack(i+1,path)
                 path.pop()
