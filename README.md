@@ -183,6 +183,7 @@ Added CFPUSHER
 | [0990-satisfiability-of-equality-equations](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0990-satisfiability-of-equality-equations) |
 | [1202-smallest-string-with-swaps](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1202-smallest-string-with-swaps) |
 | [1208-get-equal-substrings-within-budget](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1208-get-equal-substrings-within-budget) |
+| [1849-splitting-a-string-into-descending-consecutive-values](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1849-splitting-a-string-into-descending-consecutive-values) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -370,6 +371,7 @@ Added CFPUSHER
 | ------- |
 | [0077-combinations](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0077-combinations) |
 | [0257-binary-tree-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0257-binary-tree-paths) |
+| [1849-splitting-a-string-into-descending-consecutive-values](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1849-splitting-a-string-into-descending-consecutive-values) |
 ## String Matching
 |  |
 | ------- |
@@ -464,4 +466,8 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
+## Enumeration
+|  |
+| ------- |
+| [1849-splitting-a-string-into-descending-consecutive-values](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1849-splitting-a-string-into-descending-consecutive-values) |
 <!---LeetCode Topics End-->
