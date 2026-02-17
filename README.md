@@ -177,6 +177,7 @@ Added CFPUSHER
 | [0076-minimum-window-substring](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0127-word-ladder) |
 | [0257-binary-tree-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0257-binary-tree-paths) |
+| [0306-additive-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0306-additive-number) |
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0424-longest-repeating-character-replacement](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -382,6 +383,7 @@ Added CFPUSHER
 | [0078-subsets](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0090-subsets-ii) |
 | [0257-binary-tree-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0257-binary-tree-paths) |
+| [0306-additive-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0306-additive-number) |
 | [1849-splitting-a-string-into-descending-consecutive-values](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1849-splitting-a-string-into-descending-consecutive-values) |
 | [2305-fair-distribution-of-cookies](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2305-fair-distribution-of-cookies) |
 ## String Matching
