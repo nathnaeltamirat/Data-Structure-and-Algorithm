@@ -123,6 +123,7 @@ Added CFPUSHER
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
 | [1765-map-of-highest-peak](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1765-map-of-highest-peak) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1926-nearest-exit-from-entrance-in-maze) |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [2050-parallel-courses-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2050-parallel-courses-iii) |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 | [2305-fair-distribution-of-cookies](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2305-fair-distribution-of-cookies) |
@@ -258,6 +259,7 @@ Added CFPUSHER
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0763-partition-labels](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0763-partition-labels) |
 | [0881-boats-to-save-people](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0881-boats-to-save-people) |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1962-remove-stones-to-minimize-the-total) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -476,6 +478,7 @@ Added CFPUSHER
 | ------- |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1962-remove-stones-to-minimize-the-total) |
 ## Monotonic Queue
 |  |
 | ------- |
