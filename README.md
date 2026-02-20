@@ -94,6 +94,7 @@ Added CFPUSHER
 | [0215-kth-largest-element-in-an-array](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0215-kth-largest-element-in-an-array) |
 | [0275-h-index-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0275-h-index-ii) |
 | [0287-find-the-duplicate-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0410-split-array-largest-sum](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0410-split-array-largest-sum) |
 | [0463-island-perimeter](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0463-island-perimeter) |
@@ -136,6 +137,7 @@ Added CFPUSHER
 | ------- |
 | [0130-surrounded-regions](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0200-number-of-islands) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0463-island-perimeter](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0463-island-perimeter) |
 | [0529-minesweeper](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0542-01-matrix) |
@@ -211,6 +213,7 @@ Added CFPUSHER
 | [0209-minimum-size-subarray-sum](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0209-minimum-size-subarray-sum) |
 | [0275-h-index-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0275-h-index-ii) |
 | [0287-find-the-duplicate-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0410-split-array-largest-sum](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0410-split-array-largest-sum) |
 | [0475-heaters](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0475-heaters) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -245,6 +248,7 @@ Added CFPUSHER
 | ------- |
 | [0088-merge-sorted-array](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0215-kth-largest-element-in-an-array) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0475-heaters](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0475-heaters) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -483,6 +487,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0215-kth-largest-element-in-an-array) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
