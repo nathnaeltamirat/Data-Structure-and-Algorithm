@@ -94,6 +94,7 @@ Added CFPUSHER
 | [0215-kth-largest-element-in-an-array](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0215-kth-largest-element-in-an-array) |
 | [0275-h-index-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0275-h-index-ii) |
 | [0287-find-the-duplicate-number](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0287-find-the-duplicate-number) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0410-split-array-largest-sum](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0410-split-array-largest-sum) |
@@ -493,6 +494,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0215-kth-largest-element-in-an-array) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0692-top-k-frequent-words](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0692-top-k-frequent-words) |
