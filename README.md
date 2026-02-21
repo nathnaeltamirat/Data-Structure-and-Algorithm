@@ -124,6 +124,7 @@ Added CFPUSHER
 | [1202-smallest-string-with-swaps](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1202-smallest-string-with-swaps) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1591-strange-printer-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1591-strange-printer-ii) |
+| [1642-furthest-building-you-can-reach](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1642-furthest-building-you-can-reach) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
 | [1765-map-of-highest-peak](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1765-map-of-highest-peak) |
 | [1834-single-threaded-cpu](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1834-single-threaded-cpu) |
@@ -272,6 +273,7 @@ Added CFPUSHER
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0763-partition-labels](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0763-partition-labels) |
 | [0881-boats-to-save-people](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0881-boats-to-save-people) |
+| [1642-furthest-building-you-can-reach](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1642-furthest-building-you-can-reach) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1962-remove-stones-to-minimize-the-total) |
 ## Prefix Sum
 |  |
@@ -500,6 +502,7 @@ Added CFPUSHER
 | [0692-top-k-frequent-words](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0692-top-k-frequent-words) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
+| [1642-furthest-building-you-can-reach](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1642-furthest-building-you-can-reach) |
 | [1834-single-threaded-cpu](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1834-single-threaded-cpu) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1962-remove-stones-to-minimize-the-total) |
 ## Monotonic Queue
