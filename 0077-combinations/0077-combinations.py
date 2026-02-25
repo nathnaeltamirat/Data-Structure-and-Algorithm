@@ -6,7 +6,8 @@ class Solution:
             if len(path) == k:
                 res.append(path[:])
                 return
-            for i in range(curr,n+1):
+            max_value = n - (k - len(path)) + 2
+            for i in range(curr,max_value):
                 path.append(i)
                 backtrack(i+1,path)
                 path.pop()
