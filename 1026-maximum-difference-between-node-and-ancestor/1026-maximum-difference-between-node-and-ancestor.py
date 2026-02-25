@@ -6,14 +6,13 @@
 #         self.right = right
 class Solution:
     def maxAncestorDiff(self, root: Optional[TreeNode]) -> int:
-        res = 0
-        def traverse(root,h,l):
+        res = float('-inf')
+        def traverse(root,max_value,min_value):
             nonlocal res
-            if root:
-                h = max(h,root.val)
-                l = min(l,root.val)
-                res = max(res,h-l)
-                traverse(root.left,h,l)
-                traverse(root.right,h,l)
-        traverse(root,float('-inf'),float('inf'))
+            res = max(res,(max_value - min_value))
+            if root.left:
+                traverse(root.left,max(max_value,root.left.val),min(min_value,root.left.val))
+            if root.right:
+                traverse(root.right,max(max_value,root.right.val),min(min_value,root.right.val))
+        traverse(root,root.val,root.val)
         return res
