@@ -1,27 +1,25 @@
 class Solution:
     def splitString(self, s: str) -> bool:
-        def validator(arr,start):
-            if len(arr) == 1 and start == len(s):
-                return False
-            for i in range(1,len(arr)):
-                if arr[i] - arr[i-1] != -1:
+        def validate(path):
+            for i in range(1,len(path)):
+                if path[i-1] - path[i] != 1:
                     return False
             return True
-        res = False
-        def backtrack(start,arr):
-            nonlocal res
-            print(arr)
-            if not validator(arr,start):
+        
+        def backtrack(path,curr):
+            val = False
+            if curr == len(s):
+                if validate(path) and len(path) > 1:
+                    return True
                 return False
-            if validator(arr,start) and start == len(s):
-                print("True value ",arr)
-                return True
             
-            for i in range(start,len(s)):
-                arr.append(int(s[start:i+1]))
-                res = res or backtrack(i+1,arr)
-                arr.pop()
-            return res
-            #0 
-        return backtrack(0,[])
-        return res
+            for i in range(curr,len(s)):
+                path.append(int(s[curr:i+1]))
+                # print(path)
+                val = backtrack(path,i+1)
+                if val:
+                    return True
+                path.pop()
+            return val
+        return backtrack([],0)
+        
