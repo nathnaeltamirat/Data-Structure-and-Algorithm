@@ -1,12 +1,8 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         graph = defaultdict(list)
-        for a, b in prerequisites:
+        for a,b in prerequisites:
             graph[b].append(a)
-        
-
-        ans = [-1] * numCourses
-
         def dfs(i):
             temp = True
             ans[i] = 0
@@ -18,8 +14,9 @@ class Solution:
             ans[i] = 1
             return temp
         result = True
+        ans = [-1] * numCourses
         for i in range(numCourses):
             if ans[i] == -1:
                 result = result and dfs(i)
-        
+        print(graph)
         return result
