@@ -136,6 +136,7 @@ Added CFPUSHER
 | [2392-build-a-matrix-with-conditions](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2392-build-a-matrix-with-conditions) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 | [3356-zero-array-transformation-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/3356-zero-array-transformation-ii) |
+| [3546-equal-sum-grid-partition-i](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/3546-equal-sum-grid-partition-i) |
 ## Matrix
 |  |
 | ------- |
@@ -155,6 +156,7 @@ Added CFPUSHER
 | [1765-map-of-highest-peak](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1765-map-of-highest-peak) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2392-build-a-matrix-with-conditions](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2392-build-a-matrix-with-conditions) |
+| [3546-equal-sum-grid-partition-i](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/3546-equal-sum-grid-partition-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -283,6 +285,7 @@ Added CFPUSHER
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [1208-get-equal-substrings-within-budget](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1208-get-equal-substrings-within-budget) |
 | [3356-zero-array-transformation-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/3356-zero-array-transformation-ii) |
+| [3546-equal-sum-grid-partition-i](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/3546-equal-sum-grid-partition-i) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -513,6 +516,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [1849-splitting-a-string-into-descending-consecutive-values](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1849-splitting-a-string-into-descending-consecutive-values) |
+| [3546-equal-sum-grid-partition-i](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/3546-equal-sum-grid-partition-i) |
 ## Bitmask
 |  |
 | ------- |
