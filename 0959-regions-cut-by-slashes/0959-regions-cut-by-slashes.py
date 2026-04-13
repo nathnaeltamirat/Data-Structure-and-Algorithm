@@ -1,41 +1,36 @@
-
-
 class Solution:
     def regionsBySlashes(self, grid: List[str]) -> int:
-        #scaling upt to 3x3
-        row1, col1 = len(grid),len(grid[0])
-        row2, col2 = row1 * 3, col1*3
-        matrix = [["0"] * col2 for _ in range(row2)]
-        for i in range(row1):
-            for j in range(col1):
-                new_r,new_col = i * 3, j * 3
-                if grid[i][j] == "/":
-                    matrix[new_r][new_col+2] = "1"
-                    matrix[new_r+1][new_col+1] = "1"
-                    matrix[new_r+2][new_col] = "1"
-                elif grid[i][j] == "\\":
-                    matrix[new_r][new_col] = "1"
-                    matrix[new_r+1][new_col+1] = "1"
-                    matrix[new_r+2][new_col+2] = "1"
-        direction = [(1,0),(0,1),(-1,0),(0,-1)]
-        def inBound(x,y):
-            return x >= 0 and x < row2 and y >= 0 and y < col2
-
-        def dfs(r,c):
-            matrix[r][c] = "1"
-            for x,y in direction:
-                new_x = x + r
-                new_y = y + c
-                if inBound(new_x,new_y) and matrix[new_x][new_y] != "1":
-                    dfs(new_x,new_y)
+        n = len(grid)
+        def inBound(r,c):
+            return r >= 0 and c >= 0 and r < n*3 and c < n*3
         
+        direction = [(1,0),(-1,0),(0,1),(0,-1)]
+        new_grid = [[0 for _ in range(n*3)] for _ in range(n*3)]
+        for i in range(n):
+            for j in range(n):
+                new_r = i * 3
+                new_j = j *3
+                if grid[i][j] == "/" or grid[i][j] == "\\":
+                    if grid[i][j] == "/":
+                        new_grid[new_r][new_j+2] = 1
+                        new_grid[new_r+1][new_j+1] = 1
+                        new_grid[new_r+2][new_j] = 1
+                    else:
+                        new_grid[new_r][new_j] = 1
+                        new_grid[new_r+1][new_j+1] = 1
+                        new_grid[new_r+2][new_j+2] = 1
+        print(new_grid)
         res = 0
-        print(matrix)
-        for i in range(row2):
-            for j in range(col2):
-                if matrix[i][j] == "0":
-                    dfs(i,j)
+        def dfs(i,j):
+            for x, y in direction:
+                new_x, new_y = x + i, y + j
+                if inBound(new_x,new_y):
+                    if new_grid[new_x][new_y] == 0:
+                        new_grid[new_x][new_y] = 1
+                        dfs(new_x,new_y)
+        for i in range(n*3):
+            for j in range(n*3):
+                if new_grid[i][j] == 0:
                     res += 1
-        
-        print(res)
+                    dfs(i,j)
         return res
