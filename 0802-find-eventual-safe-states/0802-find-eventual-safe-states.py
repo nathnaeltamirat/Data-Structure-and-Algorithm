@@ -1,24 +1,22 @@
 class Solution:
     def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:
-        dependency_graph = defaultdict(list)
-        indegree = defaultdict(int)
+        adjecency = defaultdict(list)
+        outdegree = defaultdict(int)
+        for i in range(len(graph)):
+            for item in graph[i]:
+                adjecency[item].append(i)
+                outdegree[i]+=1
         q = deque()
-
+  
         for i in range(len(graph)):
-            for node in graph[i]:
-                dependency_graph[node].append(i)
-                indegree[i] += 1
-        res = [] 
-        for i in range(len(graph)):
-            if indegree[i] == 0:
+            if outdegree[i] == 0:
                 q.append(i)
-
-         
+        res = []
         while q:
             node = q.popleft()
             res.append(node)
-            for neigh in dependency_graph[node]:
-                indegree[neigh] -= 1
-                if indegree[neigh] == 0:
+            for neigh in adjecency[node]:
+                outdegree[neigh] -= 1
+                if outdegree[neigh] == 0:
                     q.append(neigh)
         return sorted(res)
