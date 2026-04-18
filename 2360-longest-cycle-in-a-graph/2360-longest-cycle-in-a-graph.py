@@ -1,32 +1,30 @@
 class Solution:
     def longestCycle(self, edges: List[int]) -> int:
-
+        graph = defaultdict(list)
         indegree = defaultdict(int)
+        q = deque()
         for i in range(len(edges)):
-            val = edges[i]
-            indegree[val] += 1
-        q = deque([node for node in range(len(edges)) if indegree[node] == 0])
+            if edges[i]!= -1:
+                graph[i].append(edges[i])
+                indegree[edges[i]]+=1
+        for i in range(len(edges)):
+            if indegree[i] == 0:
+                q.append(i)
         while q:
             node = q.popleft()
-            neigh = edges[node]
-            if neigh != -1:
+            for neigh in graph[node]:
                 indegree[neigh] -= 1
                 if indegree[neigh] == 0:
                     q.append(neigh)
-            
-
-  
-        visited = [False] * len(edges)
-        res = -1
+        res =  - 1
         for i in range(len(edges)):
-            if not visited[i] and indegree[i] > 0:
-                
-                curr = 0
+            if indegree[i] > 0 and edges[i] != -1:
                 node = i
-                while node != -1 and not visited[node]:
+                curr = 0
+                while edges[node] != -1:
                     curr += 1
-                    visited[node] = True
+                    prev = node
                     node = edges[node]
-
+                    edges[prev] = -1
                 res = max(res,curr)
         return res
