@@ -7,25 +7,24 @@
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        parent = {root:None}
+
+        def dfs(root):
+            if root.left:
+                parent[root.left] = root
+                dfs(root.left)
+            if root.right:
+                parent[root.right] = root
+                dfs(root.right)
+        dfs(root)
+        # print(parent)
+
+        anccestor = set()
+        while p:
+            anccestor.add(p)
+            p = parent[p]
         
-        anecsstor = {root:None}
-        def traverse(root):
-            if root:
-                if root.left:
-                    anecsstor[root.left] = root
-                    traverse(root.left)
-                if root.right:
-                    anecsstor[root.right] = root
-                    traverse(root.right)
-        traverse(root)
-        p_anecsstor = set()
-        p_anecsstor.add(p)
-        while anecsstor[p]:
-            p_anecsstor.add(anecsstor[p])
-            p = anecsstor[p]
-        if q in p_anecsstor:
-            return q
-        while anecsstor[q]:
-            if anecsstor[q] in p_anecsstor:
-                return anecsstor[q]
-            q = anecsstor[q]
+        while q:
+            if q in anccestor:
+                return q
+            q = parent[q]
