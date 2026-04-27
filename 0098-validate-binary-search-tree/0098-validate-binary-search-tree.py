@@ -6,12 +6,10 @@
 #         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        
-        def vaildChecker(root,low,high):
+        def isValidChecker(root,low,right):
             if not root:
                 return True
-            if not (low < root.val < high):
+            if not (low < root.val < right):
                 return False
-            
-            return vaildChecker(root.left, low, root.val) and vaildChecker(root.right,root.val,high)
-        return vaildChecker(root,float('-inf'),float('inf'))
+            return isValidChecker(root.left,low,root.val) and isValidChecker(root.right,root.val, right)
+        return isValidChecker(root,float('-inf'),float('inf'))
