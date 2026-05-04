@@ -529,6 +529,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0707-design-linked-list](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0707-design-linked-list) |
 ## Data Stream
 |  |
 | ------- |
@@ -549,6 +550,7 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0203-remove-linked-list-elements](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0203-remove-linked-list-elements) |
+| [0707-design-linked-list](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0707-design-linked-list) |
 ## Recursion
 |  |
 | ------- |
