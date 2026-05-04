@@ -545,4 +545,12 @@ Added CFPUSHER
 |  |
 | ------- |
 | [0692-top-k-frequent-words](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0692-top-k-frequent-words) |
+## Linked List
+|  |
+| ------- |
+| [0203-remove-linked-list-elements](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0203-remove-linked-list-elements) |
+## Recursion
+|  |
+| ------- |
+| [0203-remove-linked-list-elements](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0203-remove-linked-list-elements) |
 <!---LeetCode Topics End-->
