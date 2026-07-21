@@ -10,7 +10,7 @@ class Solution:
             return root2
         if not root2:
             return root1
-        newR = TreeNode(root1.val+root2.val)
-        newR.left = self.mergeTrees(root1.left,root2.left)
-        newR.right = self.mergeTrees(root1.right,root2.right)
-        return newR
+        nRoot = TreeNode(root1.val + root2.val)
+        nRoot.left = self.mergeTrees(root1.left,root2.left)
+        nRoot.right = self.mergeTrees(root1.right,root2.right)
+        return nRoot
