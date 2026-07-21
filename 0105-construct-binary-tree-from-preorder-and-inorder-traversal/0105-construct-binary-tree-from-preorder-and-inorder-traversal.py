@@ -10,6 +10,6 @@ class Solution:
             return None
         middle = inorder.index(preorder[0])
         root = TreeNode(preorder[0])
-        root.left = self.buildTree(preorder[1:middle+1],inorder[:middle])
-        root.right = self.buildTree(preorder[middle+1:],inorder[middle+1:])
+        root.left = self.buildTree(preorder[1:middle + 1],inorder[:middle])
+        root.right = self.buildTree(preorder[middle + 1:],inorder[middle +1:])
         return root
