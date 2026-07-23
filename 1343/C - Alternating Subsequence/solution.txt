@@ -1,1 +1,17 @@
-t = int(input())for _ in range(t):    n = int(input())    nums = list(map(int,input().split()))    high_pos = float('-inf')    high_neg = float('-inf')    l = 0    r = 0    res = 0    while r < n:        if nums[r]  > 0 and nums[l] < 0:            res += high_neg            high_pos = nums[r]            high_neg = float('-inf')            l = r        elif nums[r]  < 0 and nums[l] > 0:            res += high_pos            high_pos = float('-inf')            high_neg = nums[r]            l = r        elif nums[l] > 0 and nums[l] > 0:            high_pos = max(high_pos,nums[r])        elif nums[l] < 0 and nums[r] < 0:            high_neg = max(high_neg,nums[r])        r += 1    if high_neg != float('-inf'):        res += high_neg    if high_pos != float('-inf'):        res += high_pos    print(res)
+def main():
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        arr = list(map(int,input().split()))
+        max_holder = arr[0]
+        res = 0
+        for i in range(1,len(arr)):
+            if (arr[i-1] > 0 and arr[i] < 0) or (arr[i-1]  < 0 and arr[i] > 0):
+                res += max_holder
+                max_holder = arr[i]
+            elif (arr[i-1] > 0 and arr[i] > 0) or (arr[i-1]  < 0 and arr[i] < 0):
+                max_holder = max(max_holder,arr[i])
+        res += max_holder      
+        print(res)
+    
+main()
