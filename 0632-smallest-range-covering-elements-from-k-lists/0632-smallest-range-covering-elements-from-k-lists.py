@@ -1,23 +1,22 @@
 class Solution:
     def smallestRange(self, nums: List[List[int]]) -> List[int]:
-        k = len(nums)
-        left = right =  nums[0][0]
+        left = right = nums[0][0]
         min_heap = []
-        
-        for i in range(k):
-            left = min(left,nums[i][0])
-            right = max(right,nums[i][0])
-            heappush(min_heap,(nums[i][0],i,0))
+        for i in range(len(nums)):
+            num = nums[i][0]
+            left = min(left,num)
+            right = max(right,num)
+            heappush(min_heap,(num,i,0))
         res = [left,right]
         while True:
-            val, list_idx,idx = heappop(min_heap)
+            num, list_idx, idx = heappop(min_heap)
             idx += 1
-            
             if idx == len(nums[list_idx]):
                 return res
+            
             next_val = nums[list_idx][idx]
-            heappush(min_heap, (next_val,list_idx,idx))
-            left = min_heap[0][0]
+            heappush(min_heap,(next_val,list_idx,idx))
             right = max(right,next_val)
-            if right - left  < res[1] - res[0]:
+            left = min_heap[0][0]
+            if right -left < res[1] - res[0]:
                 res = [left,right]
