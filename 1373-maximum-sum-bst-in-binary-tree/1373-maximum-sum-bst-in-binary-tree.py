@@ -10,18 +10,22 @@ class Solution:
         def traverse(root):
             nonlocal res
             if not root:
-                return [True, 0 , float('inf'), float('-inf')]
-            l_bst, l_sum , l_min, l_max = traverse(root.left)
-            r_bst, r_sum, r_min, r_max = traverse(root.right)
-
-            if l_bst and r_bst and l_max < root.val < r_min:
-                curr_sum = root.val + l_sum + r_sum
-                res = max(res,curr_sum)
                 return [
                     True,
+                    0,
+                    float('inf'),
+                    float('-inf')
+                ]
+            l_bst,l_sum,l_min,l_max = traverse(root.left)
+            r_bst,r_sum,r_min, r_max = traverse(root.right)
+            if l_bst and r_bst and l_max < root.val < r_min:
+                curr_sum = l_sum + r_sum + root.val
+                res = max(res,curr_sum)
+                return[
+                    True,
                     curr_sum,
-                    min(root.val,l_min),
-                    max(root.val,r_max)
+                    min(l_min,root.val),
+                    max(r_max,root.val)
                 ]
             return [
                 False,
