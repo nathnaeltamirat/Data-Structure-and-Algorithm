@@ -1,27 +1,30 @@
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
-        h_word_list = set(wordList)
-        if endWord not in wordList:
+
+        #edge case
+        if (endWord not in wordList) or (endWord == beginWord):
             return 0
+        
+        def checker(s1,s2):
+            count = 0
+            for i in range(len(s1)):
+                if s1[i] != s2[i]:
+                    count += 1
+            return count <= 1
+        
         q = deque([beginWord])
         visited = set([beginWord])
-        dist = 1
+        res = 1
         while q:
             n = len(q)
+            res += 1
             for _ in range(n):
-                word = q.popleft()
-                for i in range(len(word)):
-                    val = word[i]
-                    for c in "abcdefghijklmnopqrstuvwxyz":
-                        if c == val:
-                            continue
-                        
-                        new_word = word[:i] + c + word[i+1:]
-                        if new_word in h_word_list:
-                            if new_word not in visited:
-                                q.append((new_word))
-                                visited.add((new_word))
-                                if new_word == endWord:
-                                    return dist + 1
-            dist += 1
+                baseWord = q.popleft()
+                for word in wordList:
+                    if word not in visited and checker(baseWord,word):
+                        visited.add(word)
+                        q.append(word)
+                        if word == endWord:
+                            return res
+        
         return 0
