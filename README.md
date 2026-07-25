@@ -46,10 +46,12 @@
 |  |
 | ------- |
 | [0076-minimum-window-substring](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0076-minimum-window-substring) |
+| [0127-word-ladder](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0127-word-ladder) |
 ## String
 |  |
 | ------- |
 | [0076-minimum-window-substring](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0076-minimum-window-substring) |
+| [0127-word-ladder](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0127-word-ladder) |
 ## Sliding Window
 |  |
 | ------- |
@@ -79,4 +81,8 @@
 | ------- |
 | [0818-race-car](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0818-race-car) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
