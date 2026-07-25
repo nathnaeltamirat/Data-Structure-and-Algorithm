@@ -5,26 +5,25 @@ class Solution:
         if (endWord not in wordList) or (endWord == beginWord):
             return 0
         
-        def checker(s1,s2):
-            count = 0
-            for i in range(len(s1)):
-                if s1[i] != s2[i]:
-                    count += 1
-            return count <= 1
+        pattern = defaultdict(list)
+        for word in wordList:
+            for i in range(len(word)):
+                p = word[:i] + "*" + word[i+1:]
+                pattern[p].append(word)
         
-        q = deque([beginWord])
+        q = deque([(beginWord,1)])
         visited = set([beginWord])
-        res = 1
-        while q:
-            n = len(q)
-            res += 1
-            for _ in range(n):
-                baseWord = q.popleft()
-                for word in wordList:
-                    if word not in visited and checker(baseWord,word):
-                        visited.add(word)
-                        q.append(word)
-                        if word == endWord:
-                            return res
         
+        while q:
+            word, dist = q.popleft()
+            if word == endWord:
+                return dist
+            
+            for i in range(len(word)):
+                p = word[:i] + "*" + word[i+1:]
+                for patt in pattern[p]:
+                    if patt not in visited:
+                        visited.add(patt)
+                        q.append((patt,dist+1))
+                pattern[p] = []
         return 0
