@@ -72,6 +72,7 @@
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+| [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -95,6 +96,7 @@
 | [0207-course-schedule](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
+| [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 ## Union-Find
 |  |
 | ------- |
@@ -106,6 +108,7 @@
 | [0207-course-schedule](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
+| [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 ## Topological Sort
 |  |
 | ------- |
@@ -114,8 +117,17 @@
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
+| [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 ## Shortest Path
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
+## Math
+|  |
+| ------- |
+| [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
+## Geometry
+|  |
+| ------- |
+| [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 <!---LeetCode Topics End-->
