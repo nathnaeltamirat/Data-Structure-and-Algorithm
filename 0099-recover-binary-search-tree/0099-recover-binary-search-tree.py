@@ -9,14 +9,16 @@ class Solution:
         """
         Do not return anything, modify root in-place instead.
         """
-        temp = []
+        ans = []
         def dfs(root):
             if root:
                 dfs(root.left)
-                temp.append(root)
+                ans.append(root)
                 dfs(root.right)
         dfs(root)
-        sorted_tree = sorted(node.val for node in temp)
-        for i in range(len(temp)):
-            temp[i].val = sorted_tree[i]
-        print(sorted_tree)
+        sorted_val = sorted(node.val for node in ans)
+        print(sorted_val)
+        for i in range(len(ans)):
+            ans[i].val = sorted_val[i]
+        
+        
