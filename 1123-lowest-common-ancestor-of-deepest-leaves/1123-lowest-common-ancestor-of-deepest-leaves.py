@@ -6,25 +6,20 @@
 #         self.right = right
 class Solution:
     def lcaDeepestLeaves(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        
-        #finding high depth leafes
-
-
-        def dfs(root):
+        res = [root,0]
+        def dfs(root,level):
             if not root:
-                return [0,None]
-            l_level, l_lca = dfs(root.left)
-            r_level , r_lca = dfs(root.right)
+                return  None,level
+            root_l,l_val = dfs(root.left,level+1)
+            root_r, r_val = dfs(root.right,level+1)
+            if l_val > r_val:
+                return root_l, l_val
+            if r_val > l_val:
+                return root_r, r_val
+            return root,r_val
 
-            if l_level > r_level:
-                return [l_level + 1, l_lca]
-            if l_level < r_level:
-                return [r_level + 1, r_lca]
-            
-            return [l_level + 1, root]
-        return dfs(root)[1]
-
-
-
-
+        return dfs(root,0)[0]
+      
+          
+        
 
