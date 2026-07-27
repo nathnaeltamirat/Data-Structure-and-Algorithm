@@ -61,6 +61,7 @@
 ## Tree
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0099-recover-binary-search-tree) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
@@ -68,6 +69,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0099-recover-binary-search-tree) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0130-surrounded-regions](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0207-course-schedule) |
@@ -81,11 +83,13 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0099-recover-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0099-recover-binary-search-tree) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
