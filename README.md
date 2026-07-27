@@ -47,6 +47,7 @@
 | ------- |
 | [0076-minimum-window-substring](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0127-word-ladder) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 ## String
 |  |
 | ------- |
@@ -62,6 +63,7 @@
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 ## Depth-First Search
 |  |
@@ -73,6 +75,7 @@
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0529-minesweeper](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0529-minesweeper) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 ## Binary Search Tree
@@ -85,6 +88,7 @@
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 ## Dynamic Programming
 |  |
@@ -100,6 +104,7 @@
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0529-minesweeper](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0529-minesweeper) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 ## Union-Find
 |  |
