@@ -2,29 +2,33 @@ class Solution:
     def checkIfPrerequisite(self, numCourses: int, prerequisites: List[List[int]], queries: List[List[int]]) -> List[bool]:
         graph = defaultdict(list)
         indegree = defaultdict(int)
-        for a,b in prerequisites:
+        order = defaultdict(set)
+        q = deque()
+        ans = []
+
+        #Creating relationship graph
+        for a, b in prerequisites:
             graph[a].append(b)
             indegree[b] += 1
-        q = deque()
-        res = defaultdict(set)
+
+        #Finding the required course first
         for i in range(numCourses):
             if indegree[i] == 0:
                 q.append(i)
+        
+        #Finding prerequisite relation
         while q:
             node = q.popleft()
             for neigh in graph[node]:
                 indegree[neigh] -= 1
-                res[neigh].update(res[node])
-                res[neigh].add(node)
+                order[neigh].add(node)
+                order[neigh].update(order[node])
                 if indegree[neigh] == 0:
-
                     q.append(neigh)
-        
-        ans = []
-        for a,b in queries:
-            if a in res[b]:
+        for a, b in queries:
+            if a in order[b]:
                 ans.append(True)
-                continue
-            ans.append(False)
-   
+            else:
+                ans.append(False)
         return ans
+        
