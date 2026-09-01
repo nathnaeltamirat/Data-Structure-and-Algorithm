@@ -1,46 +1,57 @@
 class Solution:
     def sortItems(self, n: int, m: int, group: List[int], beforeItems: List[List[int]]) -> List[int]:
-        def bfs(indegree,graph,length):
-            q = deque([item for item in length if indegree[item] == 0])
+
+        #Top Sort algorithm
+
+        def bfs(nodes,indegree,graph):
+            q = deque([node for node in nodes if indegree[node] == 0  ])
             order = []
             while q:
-                node =q.popleft()
+                node = q.popleft()
                 order.append(node)
                 for neigh in graph[node]:
                     indegree[neigh] -= 1
                     if indegree[neigh] == 0:
                         q.append(neigh)
-            return order if len(order) == len(length) else []
-        max_group = max(group)
-        for i in range(len(group)):
-            if group[i] == -1:
-                max_group += 1
-                group[i] = max_group
+            return order if len(order) == len(nodes) else []
+        node_graph = defaultdict(list)
+        node_indegree = defaultdict(int)
         group_graph = defaultdict(list)
         group_indegree = defaultdict(int)
-        for i in range(len(beforeItems)):
-            for item in beforeItems[i]:
-                if group[item] != group[i]:
-                    group_graph[group[item]].append(group[i])
-                    group_indegree[group[i]] += 1
 
-        group_order = bfs(group_indegree,group_graph,range(max_group+1))
+        #For groups with no group
+        ne_group = max(group) + 1
+        for i in range(len(group)):
+            if group[i] == -1:
+                group[i] = ne_group
+                ne_group+=1
+
+        for i in range(len(beforeItems)):
+            for j in range(len(beforeItems[i])):
+                node_indegree[i] += 1
+                node_graph[beforeItems[i][j]].append(i)
+                if group[i] != group[beforeItems[i][j]]:
+                    group_graph[group[beforeItems[i][j]]].append(group[i])
+                    group_indegree[group[i]] += 1
+        
+
+        group_order = bfs(list(range(0,ne_group)),group_indegree,group_graph)
+
+        #cycle detected
         if not group_order:
             return []
-        item_graph = defaultdict(list)
-        item_indegree = defaultdict(int)
-        for i in range(len(beforeItems)):
-            for item in beforeItems[i]:
-                item_graph[item].append(i)
-                item_indegree[i] += 1
-        item_order = bfs(item_indegree,item_graph,range(n))
-        if not item_order:
+      
+        node_order = bfs(list(range(n)),node_indegree,node_graph)
+        #cycle detected
+        if not node_order:
             return []
-        # print(group_order,item_order)
-        order = defaultdict(list)
+       
+        #printing in the correct format
+        group_ordered = defaultdict(list)
         res = []
-        for j in item_order:
-            order[group[j]].append(j)
-        for g in group_order:
-            res.extend(order[g])
+        for i in node_order:
+            group_ordered[group[i]].append(i)
+     
+        for i in group_order:
+            res.extend(group_ordered[i])
         return res
