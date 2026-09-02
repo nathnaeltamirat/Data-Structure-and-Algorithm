@@ -137,6 +137,7 @@
 | [1462-course-schedule-iv](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1462-course-schedule-iv) |
 | [2050-parallel-courses-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2050-parallel-courses-iii) |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
+| [2392-build-a-matrix-with-conditions](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2392-build-a-matrix-with-conditions) |
 ## Topological Sort
 |  |
 | ------- |
@@ -146,6 +147,7 @@
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
 | [1462-course-schedule-iv](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1462-course-schedule-iv) |
 | [2050-parallel-courses-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2050-parallel-courses-iii) |
+| [2392-build-a-matrix-with-conditions](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2392-build-a-matrix-with-conditions) |
 ## Array
 |  |
 | ------- |
@@ -154,6 +156,7 @@
 | [0529-minesweeper](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0529-minesweeper) |
 | [2050-parallel-courses-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2050-parallel-courses-iii) |
 | [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
+| [2392-build-a-matrix-with-conditions](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2392-build-a-matrix-with-conditions) |
 ## Shortest Path
 |  |
 | ------- |
@@ -171,9 +174,11 @@
 | ------- |
 | [0130-surrounded-regions](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0130-surrounded-regions) |
 | [0529-minesweeper](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0529-minesweeper) |
+| [2392-build-a-matrix-with-conditions](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2392-build-a-matrix-with-conditions) |
 ## Directed Acyclic Graph
 |  |
 | ------- |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
 | [2050-parallel-courses-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2050-parallel-courses-iii) |
+| [2392-build-a-matrix-with-conditions](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2392-build-a-matrix-with-conditions) |
 <!---LeetCode Topics End-->
