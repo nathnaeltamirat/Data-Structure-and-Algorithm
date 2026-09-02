@@ -1,1 +1,36 @@
-from collections import defaultdict,dequet = int(input())def bfs(graph,indegree,nodes,final):    q = deque([node for node in nodes if indegree[node] == 1])     count = 0    removed = 0    while count != final and q:        count += 1        n = len(q)        removed += n        for _ in range(n):            node = q.popleft()            for neigh in graph[node]:                indegree[neigh] -= 1                if indegree[neigh] == 1:                    q.append(neigh)    # print("len nodes ",len(nodes))    return len(nodes) -removed for _ in range(t):    input()    n, op = map(int,input().split())    graph = defaultdict(list)    indegree = defaultdict(int)     for _ in range(n-1):        a, b = map(int,input().split())        graph[a].append(b)        graph[b].append(a)        indegree[a] += 1        indegree[b] += 1    if n <= 2:        print(0)        continue    print(bfs(graph,indegree,range(1,n+1),op))
+from collections import defaultdict, deque
+def modifiedTopSort(k,nodes,graph,indegree):
+    q = deque([node for node in nodes if indegree[node] == 1])
+    count = 0
+    breakCounter = 0
+    if len(nodes) <= 2:
+        return 0
+    while q:
+        n = len(q)
+        if breakCounter == k:
+            break
+        for _ in range(n):
+            node = q.popleft()
+            for neigh in graph[node]:
+                indegree[neigh] -= 1
+                if indegree[neigh] == 1:
+                    q.append(neigh)
+        breakCounter += 1
+        count += n
+    return len(nodes) - count
+def main():
+    t = int(input())
+    for _ in range(t):
+        input()
+        n, k = map(int,input().split())
+        graph = defaultdict(list)
+        indegree = defaultdict(int)
+        for _ in range(n-1):
+            a,b = map(int,input().split())
+            graph[a].append(b)
+            graph[b].append(a)
+            indegree[a] += 1
+            indegree[b] += 1
+        
+        print(modifiedTopSort(k,range(1,n+1),graph,indegree))
+main()
