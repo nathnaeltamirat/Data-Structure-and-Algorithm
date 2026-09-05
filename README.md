@@ -81,6 +81,7 @@
 ## Array
 |  |
 | ------- |
+| [0959-regions-cut-by-slashes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0959-regions-cut-by-slashes) |
 | [1591-strange-printer-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1591-strange-printer-ii) |
 ## Graph Theory
 |  |
@@ -94,6 +95,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0959-regions-cut-by-slashes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0959-regions-cut-by-slashes) |
 | [1591-strange-printer-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1591-strange-printer-ii) |
 ## Directed Acyclic Graph
 |  |
@@ -103,12 +105,23 @@
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0547-number-of-provinces) |
+| [0959-regions-cut-by-slashes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0959-regions-cut-by-slashes) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0547-number-of-provinces) |
+| [0959-regions-cut-by-slashes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0959-regions-cut-by-slashes) |
 ## Union-Find
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0547-number-of-provinces) |
+| [0959-regions-cut-by-slashes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0959-regions-cut-by-slashes) |
+## Hash Table
+|  |
+| ------- |
+| [0959-regions-cut-by-slashes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0959-regions-cut-by-slashes) |
+## Planar Graph
+|  |
+| ------- |
+| [0959-regions-cut-by-slashes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0959-regions-cut-by-slashes) |
 <!---LeetCode Topics End-->
