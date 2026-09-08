@@ -6,21 +6,21 @@
 #         self.right = right
 class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
-        def checker(c_root,s_root):
-            if not c_root and not s_root:
+        def checker(r,sr):
+            if not r and not sr:
                 return True
-            if not c_root or not s_root:
+            if not r or not sr:
                 return False
-
-            if c_root.val != s_root.val:
+            if r.val != sr.val:
                 return False
-            return checker(c_root.left,s_root.left) and checker(c_root.right,s_root.right)
-        res = False
-        def dfs(root,subRoot):
-            nonlocal res
+            return checker(r.left,sr.left) and checker(r.right,sr.right)
+        
+        val = False
+        def traverse(root):
+            nonlocal val
             if root:
-                res = res or checker(root,subRoot)
-                dfs(root.left,subRoot)
-                dfs(root.right,subRoot)
-        dfs(root,subRoot)
-        return res
+                val = val or checker(root,subRoot)
+                traverse(root.left)
+                traverse(root.right)
+        traverse(root)
+        return val
