@@ -12,17 +12,18 @@ class Solution:
             return root
         if not root:
             return None
-        if root.val > key:
-            root.left = self.deleteNode(root.left,key)
-        elif root.val < key:
+        if root.val < key:
             root.right = self.deleteNode(root.right,key)
+        elif root.val > key:
+            root.left = self.deleteNode(root.left,key)
         else:
-            if not root.right:
-                return root.left
             if not root.left:
                 return root.right
-            temp = inorderSuccessor(root.right)
-            root.val = temp.val
-            root.right = self.deleteNode(root.right,temp.val)
+            if not root.right:
+                return root.left
+            node = inorderSuccessor(root.right)
+            root.val = node.val
+            root.right = self.deleteNode(root.right,node.val)
+        
         return root
-
+        
