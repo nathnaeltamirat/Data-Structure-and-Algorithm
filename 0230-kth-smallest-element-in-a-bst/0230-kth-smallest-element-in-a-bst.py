@@ -10,11 +10,15 @@ class Solution:
         def traverse(root):
             nonlocal count
             if root:
-                val = traverse(root.left)
-                if val is not None:
-                    return val
+                left_val = traverse(root.left)
+                if left_val is not None:
+                    return left_val
                 count += 1
                 if count == k:
                     return root.val
-                return traverse(root.right)
-        return traverse(root)
+                val = traverse(root.right)
+                if val is not None:
+                    return val
+        return traverse(root) 
+                
+
