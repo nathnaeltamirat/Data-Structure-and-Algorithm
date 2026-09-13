@@ -1,25 +1,22 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        #cycle detection  can be done using topsort i think but 
-        #lets do cycle detection
+        #doing graph
+        ans = True
         graph = defaultdict(list)
-        color = [-1] * numCourses
         for a,b in prerequisites:
             graph[b].append(a)
-        
-        def dfs(node):
-            color[node] = 0
-            for neigh in graph[node]:
+        color = [-1] * numCourses
+
+        def dfs(i):
+            nonlocal ans
+            color[i] = 0
+            for neigh in graph[i]:
                 if color[neigh] == 0:
-                    return False
-                if color[neigh] != 1 and not dfs(neigh):
-                    return False
-            color[node] = 1
-            return True
-        res = True
+                    ans = False
+                elif color[neigh] == -1:
+                    dfs(neigh)
+            color[i] = 1
+
         for i in range(numCourses):
-            if color[i] == -1:
-                res = res and dfs(i)
-                if not res:
-                    return False
-        return True        
+                dfs(i)
+        return ans
