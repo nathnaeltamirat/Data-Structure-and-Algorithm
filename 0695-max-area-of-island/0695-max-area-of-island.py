@@ -1,24 +1,25 @@
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
-        direction = [(1,0),(0,1),(-1,0),(0,-1)]
-        row, column = len(grid), len(grid[0])
+        direction = [(-1,0),(1,0),(0,1),(0,-1)]
+        row, col = len(grid), len(grid[0])
         def inBound(r,c):
-            return r >= 0 and r < row and c >= 0 and c < column
+            return r >= 0 and c >= 0 and r < row and c < col
         
-        visited = set()
-        def dfs(i,j):
-            val = 1
-            visited.add((i,j))
-            for x, y in direction:
-                new_r = i + x
-                new_c = j + y
-                if inBound(new_r,new_c) and grid[new_r][new_c] == 1:
-                    if (new_r,new_c) not in visited:
-                        val += dfs(new_r,new_c)
-            return val
         res = 0
+        def dfs(i,j):
+            res = 1
+            for x, y in direction:
+                new_x  = x + i
+                new_y = y + j
+                if inBound(new_x,new_y) and grid[new_x][new_y] == 1:
+                    grid[new_x][new_y] = 0
+                    res += dfs(new_x,new_y)
+            
+            return res
         for i in range(row):
-            for j in range(column):
-                if (i,j) not in visited and grid[i][j] == 1:
+            for j in range(col):
+                if grid[i][j] == 1:
+                    grid[i][j] = 0
                     res = max(res,dfs(i,j))
         return res
+                
