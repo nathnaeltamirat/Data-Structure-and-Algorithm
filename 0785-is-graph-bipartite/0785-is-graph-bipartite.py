@@ -1,29 +1,25 @@
 class Solution:
     def isBipartite(self, graph: List[List[int]]) -> bool:
         color = [-1] * len(graph)
-        ans = True
-        def dfs(node):
-            nonlocal ans
-            for neigh in graph[node]:
+        res = True
+        def dfs(i):
+            nonlocal res
+            for neigh in graph[i]:
                 if color[neigh] == -1:
-                    color[neigh] = 1 - color[node]
-                    if not dfs(neigh):
-                        return False
-                elif color[neigh] == color[node]:
-                    ans = False
+                    color[neigh] = 1 - color[i]
+                    dfs(neigh)
+                elif color[neigh] == color[i]:
+                    res = False
                     return False
-            return True
-        for node in range(len(graph)):
-            if color[node] == -1:
-                color[node] = 0
-                if not dfs(node):
-                    return False
-        return True
-            
-          
-        
-        
+        for i in range(len(graph)):
+            if color[i] == -1:
+                color[i] = 0
+                dfs(i)
+
+        return res
+
+                   
+
                 
-        return ans
             
-            
+
