@@ -89,6 +89,7 @@
 | [1202-smallest-string-with-swaps](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1202-smallest-string-with-swaps) |
 | [1591-strange-printer-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1591-strange-printer-ii) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
+| [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 ## Graph Theory
 |  |
 | ------- |
@@ -100,6 +101,7 @@
 | [1579-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1579-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [1591-strange-printer-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1591-strange-printer-ii) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
+| [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 ## Topological Sort
 |  |
 | ------- |
@@ -135,6 +137,7 @@
 | [0959-regions-cut-by-slashes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0959-regions-cut-by-slashes) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1202-smallest-string-with-swaps](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1202-smallest-string-with-swaps) |
+| [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -147,6 +150,7 @@
 | [0924-minimize-malware-spread](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0924-minimize-malware-spread) |
 | [0959-regions-cut-by-slashes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0959-regions-cut-by-slashes) |
 | [1202-smallest-string-with-swaps](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1202-smallest-string-with-swaps) |
+| [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 ## Union-Find
 |  |
 | ------- |
@@ -257,4 +261,12 @@
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
+## Math
+|  |
+| ------- |
+| [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
+## Geometry
+|  |
+| ------- |
+| [2101-detonate-the-maximum-bombs](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/2101-detonate-the-maximum-bombs) |
 <!---LeetCode Topics End-->
