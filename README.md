@@ -82,6 +82,7 @@
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
 | [0924-minimize-malware-spread](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0924-minimize-malware-spread) |
 | [0959-regions-cut-by-slashes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0959-regions-cut-by-slashes) |
@@ -92,6 +93,7 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0207-course-schedule) |
+| [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
 | [0924-minimize-malware-spread](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0924-minimize-malware-spread) |
@@ -121,6 +123,7 @@
 | [0207-course-schedule](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0207-course-schedule) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0437-path-sum-iii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0437-path-sum-iii) |
 | [0547-number-of-provinces](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0572-subtree-of-another-tree) |
@@ -135,6 +138,7 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0207-course-schedule) |
+| [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0547-number-of-provinces) |
 | [0617-merge-two-binary-trees](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0617-merge-two-binary-trees) |
 | [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
@@ -145,6 +149,7 @@
 ## Union-Find
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0695-max-area-of-island) |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
@@ -176,6 +181,7 @@
 ## String
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 | [1202-smallest-string-with-swaps](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1202-smallest-string-with-swaps) |
 ## Tree
 |  |
@@ -236,4 +242,16 @@
 |  |
 | ------- |
 | [0785-is-graph-bipartite](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0785-is-graph-bipartite) |
+## Shortest Path
+|  |
+| ------- |
+| [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
+## Bellman–Ford Algorithm
+|  |
+| ------- |
+| [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
+## Floyd–Warshall Algorithm
+|  |
+| ------- |
+| [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
 <!---LeetCode Topics End-->
