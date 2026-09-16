@@ -5,7 +5,7 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def recoverTree(self, root: Optional[TreeNode]) -> None:
+    def recoverTree(self, root: TreeNode | None) -> None:
         """
         Do not return anything, modify root in-place instead.
         """
@@ -15,10 +15,14 @@ class Solution:
                 dfs(root.left)
                 ans.append(root)
                 dfs(root.right)
+
         dfs(root)
-        sorted_val = sorted(node.val for node in ans)
-        print(sorted_val)
+        sort_ans = sorted(node.val for node in ans)
+
         for i in range(len(ans)):
-            ans[i].val = sorted_val[i]
+            ans[i].val = sort_ans[i]
         
+
+                
+
         
