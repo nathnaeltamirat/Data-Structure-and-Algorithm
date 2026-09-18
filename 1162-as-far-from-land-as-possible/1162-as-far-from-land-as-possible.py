@@ -1,28 +1,25 @@
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
+        n = len(grid)
         q = deque()
-        row, column  = len(grid), len(grid[0])
-        direction = [(1,0),(0,1),(-1,0),(0,-1)]
-        max_value = float('-inf')
+        visited = set()
+        direction = [(1,0),(-1,0),(0,1),(0,-1)]
+        res = -1
         def inBound(r,c):
-            return r >= 0 and r < row and c >= 0 and c < column
-        for i in range(row):
-            for j in range(column):
-                if grid[i][j] == 1:
-                    grid[i][j] = 0
+            return r >= 0 and c >= 0 and r < n and c < n
+        for i in range(n):
+            for j in range(n):
+                val = grid[i][j]
+                if val == 1:
+                    visited.add((i,j))
                     q.append((i,j))
-                else:
-                    grid[i][j] = -1
-        # print(grid)
         while q:
-            r, c = q.popleft()
+            i,j = q.popleft()
             for x, y in direction:
-                new_r = x + r
-                new_c = y + c
-                if inBound(new_r,new_c) and grid[new_r][new_c] == -1:
-                    grid[new_r][new_c] = grid[r][c] + 1
-                    max_value = max(max_value,grid[new_r][new_c])
-                    q.append((new_r,new_c))
-        print(grid)
-        return max_value if max_value != float('-inf') else -1
-
+                new_x, new_y = i + x, j + y
+                if inBound(new_x, new_y) and grid[new_x][new_y] == 0:
+                    grid[new_x][new_y]  = 1 +  grid[i][j]
+                    res = max(res,grid[new_x][new_y])
+                    q.append((new_x,new_y))
+        # print(grid)
+        return res-1 if res != -1 else -1
