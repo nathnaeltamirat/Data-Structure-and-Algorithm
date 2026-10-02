@@ -81,6 +81,7 @@
 ## Array
 |  |
 | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0130-surrounded-regions](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0130-surrounded-regions) |
 | [0399-evaluate-division](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0399-evaluate-division) |
@@ -258,6 +259,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0098-validate-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0099-recover-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0230-kth-smallest-element-in-a-bst) |
