@@ -264,6 +264,7 @@
 | [0099-recover-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0099-recover-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0278-first-bad-version](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0278-first-bad-version) |
 | [0450-delete-node-in-a-bst](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0450-delete-node-in-a-bst) |
 | [0704-binary-search](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0704-binary-search) |
 ## Binary Lifting
@@ -312,4 +313,8 @@
 |  |
 | ------- |
 | [1162-as-far-from-land-as-possible](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1162-as-far-from-land-as-possible) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
