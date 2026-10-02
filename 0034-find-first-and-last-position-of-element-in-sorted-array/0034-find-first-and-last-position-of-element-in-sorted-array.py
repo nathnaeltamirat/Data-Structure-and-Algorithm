@@ -1,29 +1,6 @@
 class Solution:
     def searchRange(self, nums: list[int], target: int) -> list[int]:
-        low = 0
-        high = len(nums) - 1
-        res = [-1,-1]
-        while low <= high:
-            middle = low + (high - low)//2
-            if nums[middle] > target:
-                high = middle - 1
-            elif nums[middle] < target:
-                low = middle + 1
-            else:
-                res[0] = middle
-                high = middle - 1
-
-        low = 0
-        high = len(nums) - 1
-        while low <= high:
-            middle = low + (high - low)//2
-            if nums[middle] > target:
-                high = middle - 1
-            elif nums[middle] < target:     
-                low = middle + 1
-            else:
-                low = middle + 1
-                res[1] = middle
-
-
-        return res
+        lower = bisect_left(nums,target)
+        if  lower >= len(nums) or nums[lower] != target:
+            return [-1,-1]
+        return [lower,bisect_right(nums,target)-1]
