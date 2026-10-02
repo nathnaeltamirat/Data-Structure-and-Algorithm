@@ -91,6 +91,7 @@
 | [0924-minimize-malware-spread](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0924-minimize-malware-spread) |
 | [0959-regions-cut-by-slashes](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0959-regions-cut-by-slashes) |
 | [0994-rotting-oranges](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0994-rotting-oranges) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1162-as-far-from-land-as-possible](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1162-as-far-from-land-as-possible) |
 | [1202-smallest-string-with-swaps](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1202-smallest-string-with-swaps) |
 | [1591-strange-printer-ii](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1591-strange-printer-ii) |
@@ -267,6 +268,7 @@
 | [0278-first-bad-version](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0278-first-bad-version) |
 | [0450-delete-node-in-a-bst](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0450-delete-node-in-a-bst) |
 | [0704-binary-search](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/0704-binary-search) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/nathnaeltamirat/Data-Structure-and-Algorithm/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 ## Binary Lifting
 |  |
 | ------- |
